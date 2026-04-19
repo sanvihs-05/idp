@@ -1,0 +1,28 @@
+# PyTorch & ML Models
+*.pt
+*.onnx
+weights/
+runs/
+
+# Datasets
+BLISTER-1/
+Larger-Blister-Pack-Defect--1/
+*.cache
+
+# Environments
+.venv/
+.dist/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Temp images and reports
+test_images/
+*_batch*.jpg
+*labels.jpg
+*pred.jpg
+*.png
+*.docx
