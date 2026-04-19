@@ -7,6 +7,7 @@ It uses EasyOCR to extract LOT and EXP text, then validates them using regex.
 
 import re
 import cv2
+import json
 import easyocr
 import argparse
 from pathlib import Path
@@ -63,7 +64,9 @@ def validate_lot_exp(image_path: str | Path) -> dict:
         dict: containing success status, extracted LOT, extracted EXP, and any error message.
     """
     result_data = {
+        "image_name": Path(image_path).name,
         "status": "FAIL",
+        "raw_text": "",
         "lot_detected": None,
         "exp_detected": None,
         "exp_parsed": None,
@@ -90,6 +93,7 @@ def validate_lot_exp(image_path: str | Path) -> dict:
         result_data["message"] = "No text detected in image."
         return result_data
 
+    result_data["raw_text"] = full_text
     print(f"\n📄 Extracted Text: '{full_text}'")
 
     # 2. Extract LOT
@@ -144,15 +148,27 @@ def run_demo(image_path: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="OCR Validation Demo for Backside Blister Packs")
     parser.add_argument("image_source", type=str, nargs="?", help="Path to image file or directory")
+    parser.add_argument("--output", type=str, default="ocr_results.json", help="Path to save JSON output")
     args = parser.parse_args()
+
+    results_list = []
 
     if args.image_source:
         source_path = Path(args.image_source)
         if source_path.is_file():
-            run_demo(str(source_path))
+            res = validate_lot_exp(str(source_path))
+            results_list.append(res)
+            print(f"Status: {res['status']} | Message: {res['message']}")
         elif source_path.is_dir():
             for img in source_path.glob("*.jpg"):
-                run_demo(str(img))
+                res = validate_lot_exp(str(img))
+                results_list.append(res)
+                print(f"[{res['image_name']}] Status: {res['status']} | Message: {res['message']}")
+                
+        # Save to JSON
+        with open(args.output, "w", encoding="utf-8") as f:
+            json.dump(results_list, f, indent=4)
+        print(f"\n💾 Saved structured OCR results to {args.output}")
     else:
         print("Usage: python ocr_lot_exp.py path/to/image.jpg")
         print("Provide an image from the larger-blister-pack-defect validation set to test.")
