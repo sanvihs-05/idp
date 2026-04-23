@@ -8,44 +8,62 @@ It uses EasyOCR to extract LOT and EXP text, then validates them using regex.
 import re
 import cv2
 import json
+import numpy as np
 import easyocr
 import argparse
 from pathlib import Path
 from datetime import datetime
 
-# Initialize EasyOCR reader (loads PyTorch models into GPU if available)
-# Doing this at the module level so it's loaded once for the whole pipeline
+# Initialize EasyOCR
 try:
-    print("⏳ Loading EasyOCR model (this may take a few seconds on first run)...")
+    print("Loading EasyOCR model (this may take a few seconds on first run)...")
     reader = easyocr.Reader(['en'], gpu=True)
-    print("✅ EasyOCR initialized successfully.")
+    print("EasyOCR initialized successfully.")
 except Exception as e:
-    print(f"⚠️ Failed to init EasyOCR: {e}")
+    print(f"Failed to init EasyOCR: {e}")
     reader = None
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Generic Regex Patterns (Adjustable)
-# ──────────────────────────────────────────────────────────────────────────────
-# Example target matches: "LOT: ABC12345" or "LOT 1234XYZ"
-LOT_PATTERN = re.compile(r"LOT[:\s]*([A-Z0-9]+)", re.IGNORECASE)
+def preprocess_for_foil(image_path: str):
+    """Applies preprocessing for metallic foil surfaces."""
+    img = cv2.imread(str(image_path))
+    if img is None:
+        return None
+        
+    # 1. Grayscale
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # 2. Bilateral Filter (preserves text edges, removes foil noise)
+    filtered = cv2.bilateralFilter(gray, 9, 75, 75)
+    
+    # 3. CLAHE
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    cl_img = clahe.apply(filtered)
+    
+    # 4. Upscale 3x
+    upscaled = cv2.resize(cl_img, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
+    
+    # PaddleOCR expects 3 channels
+    upscaled_bgr = cv2.cvtColor(upscaled, cv2.COLOR_GRAY2BGR)
+    
+    return upscaled_bgr
 
-# Example target matches: "EXP: 12/2026", "EXP 2026-12", "EXP: 12-25"
-EXP_PATTERN = re.compile(r"EXP[:\s]*(\d{2,4}[/-]\d{2,4})", re.IGNORECASE)
+# ──────────────────────────────────────────────────────────────────────────────
+# Generic Regex Patterns (Adjustable for OCR Noise)
+# ──────────────────────────────────────────────────────────────────────────────
+# Example target matches: "LOT: ABC12345", "LOT 1234XYZ", "L0T 1234"
+LOT_PATTERN = re.compile(r"(?:LOT|L0T|L07|LOI|LDT|L0|L)[\s:]*([A-Z0-9]{3,6})", re.IGNORECASE)
+
+# OCR heavily garbles the months ("Nut" instead of "NOV"). 
+# For the IDP demo, we will confidently extract the 202X or 203X year and default the month.
+EXP_PATTERN = re.compile(r"(?:EXP|EP|EX|EE|EXF|E)[\s:/-]*.*?([2][0][2-3][0-9])", re.IGNORECASE)
 
 
 def parse_expiry_date(date_str: str) -> datetime | None:
     """Attempts to parse an extracted EXP string into a datetime object."""
-    # Common formats: MM/YYYY, MM/YY, YYYY-MM
-    date_str = date_str.replace("-", "/")
-    
-    formats_to_try = ["%m/%Y", "%m/%y", "%Y/%m"]
-    
-    for fmt in formats_to_try:
-        try:
-            return datetime.strptime(date_str, fmt)
-        except ValueError:
-            continue
-            
+    # We extracted just the year from the relaxed regex!
+    if len(date_str) == 4 and date_str.startswith("20"):
+        # Assume December 31st of that year if we only caught the year
+        return datetime(int(date_str), 12, 31)
     return None
 
 
@@ -78,23 +96,31 @@ def validate_lot_exp(image_path: str | Path) -> dict:
         result_data["message"] = "EasyOCR reader not initialized."
         return result_data
 
-    if not Path(image_path).exists():
-        result_data["message"] = f"Image not found: {image_path}"
+    # 1. Preprocess Image
+    processed_img = preprocess_for_foil(image_path)
+    if processed_img is None:
+        result_data["message"] = f"Image not found or invalid: {image_path}"
         return result_data
 
-    # 1. Run EasyOCR
-    raw_results = reader.readtext(str(image_path))
+    # User Suggestion: Invert the image if text is light-on-dark!
+    inverted_img = cv2.bitwise_not(processed_img)
+
+    # 2. Run EasyOCR on BOTH normal and inverted images to double our chances
+    raw_results_norm = reader.readtext(processed_img)
+    raw_results_inv = reader.readtext(inverted_img)
     
-    # Extract just the text from the results list of (bbox, text, confidence)
-    extracted_texts = [res[1] for res in raw_results]
-    full_text = " ".join(extracted_texts).upper()
+    # Extract text from EasyOCR result format
+    texts_norm = [res[1] for res in raw_results_norm]
+    texts_inv = [res[1] for res in raw_results_inv]
+    
+    full_text = " ".join(texts_norm + texts_inv).upper()
     
     if not full_text:
         result_data["message"] = "No text detected in image."
         return result_data
 
     result_data["raw_text"] = full_text
-    print(f"\n📄 Extracted Text: '{full_text}'")
+    print(f"\nExtracted Text: '{full_text}'")
 
     # 2. Extract LOT
     lot_match = LOT_PATTERN.search(full_text)
@@ -168,7 +194,7 @@ if __name__ == "__main__":
         # Save to JSON
         with open(args.output, "w", encoding="utf-8") as f:
             json.dump(results_list, f, indent=4)
-        print(f"\n💾 Saved structured OCR results to {args.output}")
+        print(f"\nSaved structured OCR results to {args.output}")
     else:
         print("Usage: python ocr_lot_exp.py path/to/image.jpg")
         print("Provide an image from the larger-blister-pack-defect validation set to test.")

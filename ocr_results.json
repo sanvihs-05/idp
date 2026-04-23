@@ -1,0 +1,1012 @@
+[
+    {
+        "image_name": "blister_defect_000_20260201_193343_jpg.rf.02feabad599b0d31a7fefe1ab301c618.jpg",
+        "status": "FAIL",
+        "raw_text": "GAS  RORAN GASXUINTSINN DA TOJ GASXGNINSI GASXISA 30 IOR",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_001_20260201_193419_jpg.rf.eae9fdca8a9191f4a674045d4f186cf3.jpg",
+        "status": "FAIL",
+        "raw_text": "0",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_004_20260201_193430_jpg.rf.4a4c94a1fdd9db50100192101a12139a.jpg",
+        "status": "FAIL",
+        "raw_text": "WRLM #",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_004_20260202_130311_jpg.rf.c93d34bea6754e1152411c1f295ce35e.jpg",
+        "status": "FAIL",
+        "raw_text": "TE GASX MAXIK MST MUMH ~CETONS OOOXU MR AFTURI ADCTAD 8 ECIANNT; FATE LO AIDAHEL 6NYON EXP 202F GASXIMUNSNIAN ERRS UNR E RORTADNNT COATTT JINEUD\" RAE NA IAQN4 00 C7 7775U7TIMNTTALTI 444 CA TETE #AER? EMXUNTTOAL LOT 4OUR 10 83 NMJAATL A 2077/MET JIC GASXUXISSIG ENGTH ~{EON; MAN IATESIAT LOI JIAUAHTALI EXP 203 GASXOMUNSTAENATH \"RTNS VNRAREAN ECANERTO AD JULEATEN  IETUD GRD LACLO  NTTOSL LOT NON NROSAFOL 037/NOV",
+        "lot_detected": "6NYON",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_005_20260202_130314_jpg.rf.3421bdba96da2ddd07dcadc3b478f76e.jpg",
+        "status": "PASS",
+        "raw_text": "DOTH ECFTONLS 6A5 MAXINUDI5T EMGIH 8449N8GNS JL0JUAN 47UJKE 38 CA AU 8 FO 6XCI EIL WMZ) HESUNIE 07 FUL 63 00J BIOSMHLO] 45TICETAL EXP BORTN TXHUSULA JIA ELT* 6OAN E#N DEET UMNZU MILB MFAAI  BTON #I TLAETE A 3 TC GET MAI KSMD LO- VOSH HOAH IDL EXM 2027 /NOL 1 GASX MAU ECTTOFL S MAXIMUDISTEEMCTH 0JRTO C 8 TOL BECL,ALIT NZ) MOSUAR 0 UIJBS: TO TIOJTH IO] EXP Z0A ONTRE (UMUMSTAH 0NI EAFTA D ANENICI DG I COTOT HETAD OSH TETOAHIUI EXT 203UNOL GASX 4 GASX ; LOS",
+        "lot_detected": "JUAN",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_008_20260201_193443_jpg.rf.676839f8c9d7addb42c6d73c37f0d339.jpg",
+        "status": "FAIL",
+        "raw_text": "SUR XSEGI",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_009_20260201_193446_jpg.rf.2e58b690d23b069b0f18775d0e516ed1.jpg",
+        "status": "FAIL",
+        "raw_text": "3OA ELN LON XSPG; SED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_024_20260201_193635_jpg.rf.b4df94cdb00cf2883b78096496c3ad38.jpg",
+        "status": "FAIL",
+        "raw_text": "76A9 95 CT 37 IGASXMINUM AA 0; ON JON GAGXTUMN WT JGASX JOU",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_024_20260202_130512_jpg.rf.71bdffe788af840ccedb5715c430fbeb.jpg",
+        "status": "PASS",
+        "raw_text": "TCS GASX MUM STRBIGTM *O+ICL; ACHREALA RUA U JRNTRNENN VUEELA FTUMWAEL 8 0BAICHE \"LTY DTAI ERIOSE 8NK FUF MA AND BEJ5[5 EXP 202 494 @ GASXINNAI\" {78E 4 TCE TEEKU YAN*TRT GALN JDCIEMRARAN IDR R42XI 5 3FI ~TDL NL UCALN JJUS EA WAD F73NND LOI WEN AEUS FATABHB EP2027/NOV TT GES GASXAMUM SMRIGTH SORTETS JIT CU E 8 DABSTTK MBUTE GTT CCNOST BRENDTKN C0R L RITN EXP 202 F0 GASXANSH\" ZROM SOEROTR VTRREICR CEDEN 6 LALD 1ROLOURND LOI MON N EP 2074NOT I",
+        "lot_detected": "UCALN",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_029_20260202_130532_jpg.rf.cccfe42aca53269cae1df4fab2595b73.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXITMUNIIT EACTH *07TOEL8 3Z 8 CSACII WJII ~AIJE: F MOJI LOT HRKH 8A TEUES [OTAIIA EXP 202 RAOV T GA5XNIMUL SRICLE; 1 8007 (OHA SARE IU7 0E 5 57NEUH= EOREIEE MRENT AJLAS 4ELISA GS6C0 [ FAEATAUL LOT HOBF ICC KAL8- ATROTA;INT 8X' Z0UOU CAL B GASXUTMUNST EAOTH SOFTOLS CSLII JLII 63 HOI IOT VOH KTUIS ARROTIIC EXP 202 F0 LU GASXTHUMSTI KCFICUC; NG 45 FDO LZAR SA WUEA JLEREST HJLAS UNIJOSTCR FATADI LOT AIOTATIC| EIT 30 JLOV FAE",
+        "lot_detected": "HRKH",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_038_20260201_193952_jpg.rf.5bf73342f5aad223203d78ea39a10699.jpg",
+        "status": "PASS",
+        "raw_text": "SONO E C 6AS HUIHUHSIGMH EXA ROZZARQ [5O5 DI IENIAT; JT KTTDONRALA 0 JADOLA JK RULO#ONCUTLE EEILURCONDE JMAAEALI CCRUT! ATATIEAA INN ITTEEL  INTALDA 2 GSKCH SETCA \"JONS: J 8NT FNAT JOTEIL BA= 75(TAL0S THTOUNN DA UI LOT D8M HUNSTAE81H4STGBS EE 2037 /40U 0024 A NLCH 707ET1 MIANIMSE IOEOXIE KEETEISHXOLGOUALDN DANTNEIZETA S  RTOUAIESALTAETILASIAGE OIBLONNL DO N LANRO2ESCIIL T\"ETUHILITA KAACRDMIA KAKCH MT FIOITSI KATA (9S0 KEID PRETASOTAA ORNNELELNXIGBC ERWGH TALL GAS} SOFTUS U GAS GYIMUMSTRENGMH EXCZQLI DIEURTAI KOMOTUR IOT RATO UI53R OEATARJLOY #ORCITT HINANETAETIURRMOTT SUIAA CATIA UOE CETUTT TLITLA J GSRCH MTEA MJONTSS FAOT GU AC ALIOSL LANNEETATLOBUS AHTOUTHTDI UTIGUS LOT MDAM IBA5 MAXMUMSTAENGTH 207 MOD BCJH UG HLERTN ZO) KRED55RNU5A CTEERISE BOSSUCBDNI D3NY350517550A851T ?IIOUS EOIANT BLONNSRK C 7NSUONI %5 CISIN TT ICH E1INES] ELTENN PRATSOOTAD 0ICENOIBA ERTAGHFOLL JOJOOR",
+        "lot_detected": "URCOND",
+        "exp_detected": "2037",
+        "exp_parsed": "2037-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_041_20260201_194005_jpg.rf.6720456d72327d10f5f44e2b44c94125.jpg",
+        "status": "PASS",
+        "raw_text": "6AS OXIMUMSTENGTH ' SANOZTO RXP 202Q MRE BNMIYNMUOCTC FOMAHEETZR]042ACLLAE 3 ATELI 6ORAT1C 105 9ACUHNTTOAFINITOTON ECCE WNMLEHRUXT LNOBUITTUL ULETALUE: UAESKCH40VIDE 60US] #UT(TNIY > EHIAOSKCI(45S) MTA SOLTUL L {ON JO[ 06.IBRD5T UENAGHFOLL EENT3LE MU LOT UPAH GAS} NHUMSUNNGMH  SOFTOELB 0L2Q { HOL @D,OR DU YIUAUCZLE[AR4ZN MANNNUIAI 2AHNN; RAETATLLAT \"LBENT CATILATTUTZILLIAE IRIMSG DUDIRAK ECOEEEN* TOTHEN ADCULNCLT4UAOIF 25 CUT RTUCLSTITNLYA,LENDN) RA OSKCHUETAI4 MOIAA UCAIL J686 AC POREEGNTFAN 4I5501E [N01783(650 DALE PRER GAS (GYIMUMSTRENGTH  SANALO II EAM EXP2027INOY D45 AND HIJOT TOMTHA6TOROCIIUMTS OORNIORIOS ABHNTTTNA TNIEUOTAS TORLTTE  TH EOETALU DALURESCCH J9OLES] DACORNIY5 2371I30SNGCICITS) GOLTQAL IOAN JOT  GEJUI056 ENEGH FOLL JBASXMNNO XMDMSTEMGTH SOFIOELB LOT 46BH 2L40{ LOU DORIENEBO12IUN NIRAN' TATLIN MNAAIA NO ZOTHIN RECCCDTLLA WDIBANTE DRTAIERETTTZSCLIAE INIMRCRDUTILORTKT ECOSTREIL TOTLENCN KCUTTN 35CHERT HCLESTRO B5KCH GAET MDNIA FCT PREEATOTTOT LOEECDDABSR DRCAQHINIL RO LTS",
+        "lot_detected": "LAE",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_041_20260202_130623_jpg.rf.2f6859553f75860302e2dfc5d853b41d.jpg",
+        "status": "FAIL",
+        "raw_text": "JON 0Z 8R IPTONA HSQR 10I MUOU {2 OPNTDIN\" KR5A 104UJS4U12R3 LOET 6 NR PUD 040 1 >UIK; HLOIDHSSKN JI} T4EIUN M XOEHROK 107 57 8 DIC [TT \"I0U 3 FUE 73TRT?RUU NER EA 0 ESA A80 EOLO  W9RHISC XSEG #EXSED TONAUZ 0] NIRTOR HSNN T0 AHOEU KJRSA JLAIOSURNOT DE JODREN TCEE TUD 2 DOIJL; ROIZISTNTT ROY 0\" UIS KAEEIA DE 3 AIOM 107 54855 TAEIE94I 10N3 3 IEEECN DMORJIT CNOROST EKO SSALU} TU9ROHIS WNA XSED TULD UXSED",
+        "lot_detected": "OET",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_042_20260202_130626_jpg.rf.40c4d2d408233140e3db4597b451e936.jpg",
+        "status": "FAIL",
+        "raw_text": "70472ZOZ BA LOL BJARTI HAN O= RITEAN [NERRD FA AN UEA EE9UR( _ 5 6JE 44D 1 OLO 4YOTIXWXSED B 40:+20 < 4] GHOEI 3 MAN: 10| EOX 439 TTAR 'T' 6 9T D GRDEU WSMWIXWXSE9 OUBZO? HON J0R IOLCTRO SOON MBINTTT D SN UEI SETOAN 6 U6S 2 4N0LO HI SSULIXI? XSEG 30LZU 4ENIU I0R 8 AD OEONL WUENUX-SMOWIXAW  XSED",
+        "lot_detected": "BJARTI",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_045_20260202_130637_jpg.rf.755d409a997b03cd4b5e30e7f5210e41.jpg",
+        "status": "FAIL",
+        "raw_text": "ROR72ZOZ 8XA HRUE 07 49J (DIW FACN TANAN4 ONLAOS 6JARNO: RT6UAO5T: T 5 JUINIR JED 7Y WFR \"5R TOMJLR ETPLOS \"AEUSNMIGXGE) 1 TEEEE ^ORTRBO K KXE 5D AAD JEN M 107 LENT KUR 043U4 373TT. 3 LN TA AA STOLSU:; RISREALSQINWIXYTI XSEG L0 58H FONAEZOZ JD HRUA 707 POJCORWS EAI NTAT AAEN SRCONOL ASN TAO SHOLOS WYGIDWSTAMIXZY SED AC MOLX20 UX] 107 TU J56N8 043OY #OCC SOLSU; AI9IUJISANMIYY  XSED AI KNE LA4",
+        "lot_detected": "AOS",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_047_20260201_194034_jpg.rf.5c0abd2822a20c001b4d86009127955f.jpg",
+        "status": "PASS",
+        "raw_text": "SONL DU GAS KAOHUSTRENGM EPOANOH DRNTE ONN COLCRA CANTRRN NJO FU5E)KNAT7 AUATHC2610]2 5 HOLNSIENJET((1NTA.01RL,C4 ? IOLSHIRALLHL 4I1T5ET IBU ME 80 GONA DMRNBTU ANLTBRA PEUFLTRNLIILHAUNLAN LSJOECH #TI #A671 BN 04IGSS; 2D. PNTEENDS JUTT- '74EDO | (2190[4ESK THROUMATOL HICL EXUOHS LOT WDBH IGASXUI ISINIM KE202IHCD DJONRDET 1GAROCAG EALAN~ URS ICC221NEU CNUJAKERCET[ULS+ 00TRD79177A1 UEUUTTATON {0D4I7A3 EUTLAHNANUR?  ESCI{ 7FRRNHRT ORITHNADNRTNT OSKCHMANEN \"LUNES 01333 363 WGNEDI FRERATOLTEAL MELC[ 7NT13/89 THRCUGH RAIL S0NALE B GAS MAOMUMSTRENGMH POAUNOU 'DRNTIE ONANCATDNRUNTUNENJOTTR DANARTIGZRTHIIN 5 LUNTN ITRUCCTCONA OCRALAD TTLONCBI HRGORH TOSTOHEA UNUTN CDRDIRTAT OO LID IA PRL COLOEKCH 3I5 PINATEENDT GE ILOTT O TNTETO CRTROEIES HROURATOL UCS SONS LOTMDBH IGASX MOXIMUMSTRFNOTH LE 2034HO 01O= TORO 06D8GOUJOOT   TUCUSITT19T188885 ERDETTALS , D5ERARTD7ERAIDNUATETUDRTOTORS MDELR HANUNE ESLIT TFAALT OSKCH MANAR; \"LUNES 443 3 01JGS ELSJI FRERA TOLT SANICT 4N1585< TRCUAH LAIL ONMGSS",
+        "lot_detected": "CRA",
+        "exp_detected": "2034",
+        "exp_parsed": "2034-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_050_20260202_130656_jpg.rf.7fd9efdca811b60fac268ba3e8724c2e.jpg",
+        "status": "FAIL",
+        "raw_text": "TOWTACO? BEN O [VATHE KN, QU. JN. VENIOR IR 2 EUA INTNX ILNUNU 1 E 5 PXI26EXA MO 0 MOLX: HO ZSQMMIWXSED KOZ 8X7 T MAOA 101 W44ORILY 50*4N 8 NALOSEVN AAAAA 1R5 8 'CD 7B0L0;  HISRUUISMNW 'XSED CN HOMTZZO? 0RA BEN 40 IO ITNER PA9RSR [67BANU\"1 8OET; 5101SI: WO-STBLWYSED 5 KOZ UX7 TOO JOOA 101 WLAUEROIL 30US ANLO L GRD JCO SB0L0, HISRUUISMIWMTM XSED UN US I",
+        "lot_detected": "NUNU",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_051_20260201_194053_jpg.rf.1948ae8f21c728a5815e20fefa3dc0aa.jpg",
+        "status": "FAIL",
+        "raw_text": "DP 4 36 4 B 5 891580CN4T ADLA DON NTAID DEKPEADE AOUTIZO: DN U D: 5ACN HEOR 7O 3A3E 64 0N JOIN SULIOS N HIBAS {O8NRTE JAYOD OIASE ALD NS = XSED AOR 14ATERSAEOLAE \"AJXSO= RICTE I 3 ~8EE R8OORQT AOLE JETOLD DEEOE KONYI?UR MZN #8OR 8YA EON SOLIOS ARON LANSL OTAX POHEAE MMXUW A18 4Y5O  C TON SED SED",
+        "lot_detected": "IOS",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_051_20260202_130658_jpg.rf.846d46a554aa92c643a38cdb4f3bdde7.jpg",
+        "status": "FAIL",
+        "raw_text": "KORIEZC2 EX NSUTOI 84A 07 PILAOL UREUU INERM 5 WLRY FIC0  WJAL 0 SUJLC GMISIIXSE9 40120R J: ROENPETR \" GE A 207 GULAR4 RA 0*RGA DAERID ON 3 UTIIT '4NR N INE LWEROULSWOWUTK 'XSEG FE ( FONEEZC?93 NESUTMNIT JRAN 07 PIDRCOK IREU 5 I0 6 UR SUJLC; AI9IBHISHNII SED 0 A OI: EE 07 IGIULANAY DIINSOIC BJ 1ANS OTQU SNIIN VUSNJUISHNWUT XSEG",
+        "lot_detected": "AOL",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_052_20260201_194055_jpg.rf.d3dad7ef390cdc1caf3d8626d7d3ca2a.jpg",
+        "status": "FAIL",
+        "raw_text": "82  70 7 02L 48N0R 7ON7ZZ JOPTE' 703 HEJA 34 7004E L07 4ETECH - 599 SHOLIOS AM J4E 024UONAYA HOAIII 7T1O: UEI #T E '04NE4 ET# SEDI IAOLC {529 \" DOL 4ON0R= 70172202 {ORONTEA1 DIT ~HEJR 473 4AIL GA 107 LAD AS LOCH TEE9T 354 SEDLOJ 0NS MON HOER XSED; FED",
+        "lot_detected": "48N0R",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_055_20260201_194114_jpg.rf.87c6acee2d31a28a949c6a9faa5f649d.jpg",
+        "status": "FAIL",
+        "raw_text": "0 4 4 6 1759 TPZ 70X0 ISO4TE21OLE 4E XSEG CEETERT 1 UOIRANAU 59UED {OREAID LHOMX 06XR 5 VE 7HEEIE EEH HOWULS] 459 4662 MPA EE EERR0E#TE 29 SZA105 3PIC AUF 046.84 8487 DEI 4ENAR: [OBRORAEAID LAA7A  770R45 A 1075 HLDNTHLSHNL 7302 RITULL MBQA LER: 05*IY 0S 2 7057 2R2C SER 4 0 LAEA XSEDI SEORT FUOIRANTU {ONEAD LOMXL 8  HIONZULSI 359*928 FEERONT S7JA1403 JTRD 57297 UENOT TODROROEAID JOIE 407 T0E MRQR HOR",
+        "lot_detected": "HOMX",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_057_20260201_194122_jpg.rf.e29de4d812d178b7ef4ca1b321306792.jpg",
+        "status": "FAIL",
+        "raw_text": "A UN ION A V D FA 64 4 NOHO; {SE9 R 4J AV \"% US 6 SED TENT2 CE {QBAONI JRD T4X; AN JDD 7NAE VNAH OIY AOEL ICYA(M LA RDA5 76N72262 A56R0OU 'DUA  22ND 1L A MROR AJYE 0D 10? NN 3NEEAN 8130LJ0? 0UXVN SNR WELAVS FOCSS 0019 AX DAWU JNR 75414 7SRONLY JAAOAROINN BI E A DT OSWOC O 480O. OKR AOGIE RINS 7A JOEU W\" OL AA 6EO OXE LOH ONED HAD HNUT 4 A AEN A KO TODHOS 'SSED; SED ADL (UBROMQI FOSHRIC ALD S6 DRRE SACYAT 3ON 0 KZPI 4ON7 2802 BO 56R2ONTROU 0OISD WZE Y3 MOOR DJE JAD 40? 8130L409 HALWS  JUN LANKH EJ ONOR KIEA 01A AEN JANAOIN A KO MON",
+        "lot_detected": "ICYA",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_057_20260202_130721_jpg.rf.e09d0b3fd76f98264b6088f2e703b187.jpg",
+        "status": "FAIL",
+        "raw_text": "RURE ZZOZ DSN HQA 101 MITAUTA [KOTCLY JUNE 457315021 1 UDIA* 5 \"U 1 SNOOS\"QWATBULS WROAIXTL {SE9 4028703 4*3 0I ATO:.41 ~RZIRIOIVID 0 4U IBIE 8E86,| NTOO C6.6' #REULILLR ) 5 ERU 4*US 9K\"; HINIHISWNKIN XSEG RUNECOR HRQA 0 JILLYLICUT AEROREAN HOISO= AUC 0 5 9 67O1E05  DIGWS INIXUR SED 02 473 S0U RWLALOA4I ZU I9EAT9ETRUTE IE HIS 5 0OLS'; HEMJHIS MNBAT KTU O1TT XSED",
+        "lot_detected": "ILLR",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_060_20260202_130731_jpg.rf.a894cc4ea35ec89f8b8d8a3ecfb0d0d4.jpg",
+        "status": "FAIL",
+        "raw_text": "709 2ZOZ 4XA WALNEH UEN 10\" [4TAP7{{05 AICM 4RSO UL4N64EE DEA 2 8 BUB1): HIO ESUKWXSED AOLL2Z 0,J KATOLL 751'IRH 3 MROR 167 EMIEE KUTA J4 JE 5 MEFA 0C LED ~SLO: HLOLZHLS IXY XSED TOTZOZ JX] WLELNSM UAN 10 TARETRT4 CC AIICM 4OOSO= L GLTOD 8190155: HUSRWWIXWXSED MO2N? 0IJ YOR JON INJTDIOLL JOMICECR LJ FSEGER KEICD SOLD; HLOLAMIS XUT XSEG DAOMS",
+        "lot_detected": "NEH",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_076_20260202_130835_jpg.rf.c2fa60a0c5909ebae65c46ca76b9dca0.jpg",
+        "status": "FAIL",
+        "raw_text": "8P FO AOIN TROR 8OA 107 74884 SIP!E 1(EI4 4A 07 SUNLJO? REITEA: 3701E 8 XSED { 0 0 XSED 9  FOM '0? BON 3J37 407 LOBRUS JIJ J0T SBLSOR AOLD 8 XSED 8 : XSCD",
+        "lot_detected": "OBRUS",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_078_20260202_130844_jpg.rf.847a12d48c9b276c9045231fe0b0fbd8.jpg",
+        "status": "FAIL",
+        "raw_text": "IE FE 7 0 2OZ REN 6 85967 'IS]- ME IKUPIS 0 JI AEIN T JMN- 20? 107 TOMT CDNE SE9 NL 4ROE JACO BA IONXU N 09ALS 8 74E WOR JLAR MAPX B4NT 4NN LBRTEUG 4XA SWO 4OI AOTT 'XSED DRC CERI 0TR LOIXUTO F HLUIEYS  SNOVO} 0R C 0R YORR JRIVUNIG KDO 588 TRON FOMIRZDZ SOD J07 MUOORNSWOMNEXSED AID 8 OJLAR YARN 4XA J0; AOLD XSED AHUTTT HLUKSYS  JET T ADOLNS",
+        "lot_detected": "4ROE",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_defect_081_20260202_130856_jpg.rf.1a0fb84018a6e5d4d7e2b5a25f78437f.jpg",
+        "status": "PASS",
+        "raw_text": "VOBH EXE 2 2027 SHEN JOLTE IUL 2 SUDLSOO 0 MBAA 1 ON 4RA { 61791409 70Z 40 WVOBH [ AE 8 Z02T DNRD 8 47 GUDLSOO AN JIG S9LOS",
+        "lot_detected": "SOO",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_defect_088_20260202_130945_jpg.rf.a73e72f0f3071530f520ed317b753fef.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXE GASX GASXO GASXO",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_089_20260202_130950_jpg.rf.6ad4e79ca24c1dc01e1a0246cfe15352.jpg",
+        "status": "FAIL",
+        "raw_text": "GX GASX ~GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_092_20260202_131002_jpg.rf.cd0d1b050e37821b044c0d08d8ef2d33.jpg",
+        "status": "FAIL",
+        "raw_text": "GASX GASXA TA GASX GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_093_20260202_131005_jpg.rf.54da4eb575404fff233b5b0010f9a573.jpg",
+        "status": "FAIL",
+        "raw_text": "GASX GASX GASX GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_094_20260202_131008_jpg.rf.f5d8da6eadd1464f92199b936d3f8636.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXE GAEXA GASX GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_096_20260202_131017_jpg.rf.0babfcd22034fa6ac7ef6564029e1205.jpg",
+        "status": "FAIL",
+        "raw_text": "GASX GASXUONHEN GASX GASXUONIE",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_099_20260202_131030_jpg.rf.74d3de6b4a1fb1320cb3a5981b660991.jpg",
+        "status": "FAIL",
+        "raw_text": "GA2KVT GASK",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_115_20260202_131143_jpg.rf.50a33894058e1d1e74f11ba6b7e7b72d.jpg",
+        "status": "FAIL",
+        "raw_text": "GASK GACKTN GAS",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_121_20260202_131224_jpg.rf.deb6e12ba080b08246c29f7f36c44ba5.jpg",
+        "status": "FAIL",
+        "raw_text": "GASKE GASXUORAME GASK GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_124_20260202_131241_jpg.rf.fea7a854ff0320adbe5133acbc368b51.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXU GASXIIU GASX\"",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_130_20260202_131316_jpg.rf.670c6f0cd533c6009c46fe3bedab87cf.jpg",
+        "status": "FAIL",
+        "raw_text": "8",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_134_20260202_131331_jpg.rf.700628473c99f6bb9784050e13daa26b.jpg",
+        "status": "FAIL",
+        "raw_text": "'SE9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_146_20260202_131411_jpg.rf.d938e2a98e398efb65019ad3dea90329.jpg",
+        "status": "FAIL",
+        "raw_text": "XSES GI 'XSES XSEG 'XSED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_163_20260202_131522_jpg.rf.21f7d1a78d2bef540d41b7716d1d367d.jpg",
+        "status": "FAIL",
+        "raw_text": "'XSES YSEG",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_164_20260202_131531_jpg.rf.cd4fb82e8d9135d97b1bc672329729cc.jpg",
+        "status": "FAIL",
+        "raw_text": "KSEG YSEG",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_170_20260202_131557_jpg.rf.f1edd5fbb97e3f8b367162c6cc344a98.jpg",
+        "status": "FAIL",
+        "raw_text": "XSE9 XSED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_173_20260202_131613_jpg.rf.d5c19950f67adee6bb2623495d69287f.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    },
+    {
+        "image_name": "blister_defect_174_20260202_131625_jpg.rf.80371fd210fe9dfa3ff38049d40e8e14.jpg",
+        "status": "FAIL",
+        "raw_text": "SE) YSE9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_180_20260202_131652_jpg.rf.f1bca6ba667f74d5374ba8b2351bb1f3.jpg",
+        "status": "FAIL",
+        "raw_text": "KSE9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_181_20260202_131657_jpg.rf.4b4044ce8a5d9e4aeb910b58ff3685e0.jpg",
+        "status": "FAIL",
+        "raw_text": "XSE9 \"XSE9 X5O9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_defect_183_20260202_131712_jpg.rf.e078dc75563a59117da1f59120c530c8.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    },
+    {
+        "image_name": "blister_defect_190_20260202_131751_jpg.rf.3d1c2220fef5ba667824f86542d3c522.jpg",
+        "status": "FAIL",
+        "raw_text": "RSE=",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_000_20260201_191336_jpg.rf.7aeb5b8751361b2363d954428c89760d.jpg",
+        "status": "PASS",
+        "raw_text": "VDCZ NI 6A5, KXINUMSINE IGTU SUICZL MUEN 6 ONCAIGCA{A X8I J 74A 77INVS JFL 01 8 EELALSU T97 \"NS LTE QUJC LDT FTA LOT 4PX {BGEC @UME 1F:016350 EXF 2027 {NU WALE GASXOUSININ; %RTES 3 JEAI UN#L OORT T 3 POS'HOLI LU KBZH \"ONL(A 2024/NC VMCN LUTK GASXMAXINUM STHEIGTH SO1ICCEE EE LAMDERCOEDRUA OCAT 1 5 IOLSALSELAT IJL;& CAA DUUTTAU LO VE8 IRAUNHT50 IERKOCRTCJEE EXP 2027/NUT GASXUMNSINGA DORCLS EA JAKI HEAC DED 3 09S CANOS CO KBEH (ODTID 0Z NG",
+        "lot_detected": "MUEN",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_003_20260201_191521_jpg.rf.56652cd7f7896447e461c6f1def622a0.jpg",
+        "status": "PASS",
+        "raw_text": "UA ML GASZ NAMUM STABICTH SANGCIS 3  ONEEHO XI GTL TXI I JIT CA 1 (OIGSCIS MIY P4C 04 JIJESSC 7SNNHAN FOT 4OAM KCNTEKREJO EXP 2027 ' 4OV MT GASXUMSULG SOFTOALS { LAN 1TE JAT OTHAR 1NN1YOI7515R DRTLR 'LDAREINA '42BA KFORIU JL ACN JDOS 84 32DR 5 CH MJCLU 71TY PNUU LOI HOBH THTCAHEAN 14C EXB {NTAR D II GASX WA MUMSTABICTH SOFTCCTS JOCCIDCD GI 7P163S \"UNCONH IEN LOI EDAM TTATA EXP 2027{VOV GASXI MAXIMUMSIAENGT 80FT6EL8 JCU EI? DNT TL EOG CA JGA CAE PUAU LOI MOBH G THCTH EXP AU",
+        "lot_detected": "GASZ",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_007_20260202_131841_jpg.rf.25f329fab31bd96389a52f9c16fa1d60.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXWJWAMAN GASXU GASXWSVNSAN BASXU",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_008_20260201_191738_jpg.rf.54771efd27eeb312ed91d0ca8beb9248.jpg",
+        "status": "PASS",
+        "raw_text": "70 CORICCLS ROT 46BR 2027 , OI EXP 15RT LEN 93 GASXI SONTGELS 363\"' BSUL 4DLEAI 8061 GASX 6 33S 3 O 7 KORTGES 2027'OR DAH EXP JOOONB GASX SONTGELS GSC 2 GASX 3",
+        "lot_detected": "4DLEAI",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_013_20260201_191828_jpg.rf.f1804b852342bc224dc8bb6023d48c6c.jpg",
+        "status": "FAIL",
+        "raw_text": "0 8 1 8 1 1 5 3 5 D B 1 9 0 8 70\" REOA JI 16702 IOH 10 JOM 2 8 3 8 1 0 5 3 5 1 6 3 8 LHPON L 170?",
+        "lot_detected": "HPON",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_013_20260202_131910_jpg.rf.cbe2b9b4c4fa4eea08c546ce955747f5.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXUN GASX GA5XU GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_017_20260202_131931_jpg.rf.99d2fd249502c4d1084ada22b8545a00.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXVIAUIFIINM GAEKEI GAEX \"GASXU",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_024_20260201_191939_jpg.rf.1c0b7ae8934e32b9dc3db01bf4108d24.jpg",
+        "status": "FAIL",
+        "raw_text": "2 L0T NDBI EXT 2 Z027{MOV 2 1 1 0 0 1 8 E 1 1 0 KOT WDBI  0 ZOETFHOR 0 1 8 0 1 0 1 {",
+        "lot_detected": "NDBI",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_027_20260201_192009_jpg.rf.b13ef368188a7956a14b765f5313445e.jpg",
+        "status": "FAIL",
+        "raw_text": "JKOV 2027 6XF 00BH 101 0 1 5 1 1 1 1 3 { { 3 1 JNOR 8 0Z? IP JOOBH FOT 0 8 1 1 3 { 2 1",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_027_20260202_132028_jpg.rf.48588e39dd7144a602b1b1a791806c22.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXOU GASXI \"GASXO GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_028_20260202_132033_jpg.rf.51dfc7a014eb65083f92e50e81d9c202.jpg",
+        "status": "FAIL",
+        "raw_text": "GAEKU GASXI GAA GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_030_20260201_192022_jpg.rf.593df0a009e8e29d5826fc082eb0ca9a.jpg",
+        "status": "PASS",
+        "raw_text": "6 8 GASX  8 0 0 GASX 5 'ONOLL; \"ET FT 8TULT 4E 3 SONCU: 0AS L01 UR HRSH 2027 / 0E 1 MMOV 4 30 36 8 GASXUXWUX 3 EDH LOTH GASXTI LERON KORIGLL 3 COLT ONIGUKS L01 UR NDBIT 2027 {MOT",
+        "lot_detected": "OTH",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_032_20260201_192043_jpg.rf.b04fd5046e4a32f4061cb10829be8b5c.jpg",
+        "status": "FAIL",
+        "raw_text": "6 314 0 9 #CN6L; NAYSNUMS7RR#GUH 4DBY IMOV GASX X57 2027 L0 { \"860 E {XP WOTAD 6 UOE: 600FLS 8 V EAEE LAXC4: 3 GASXHANI ROXM 0E AH? 20- ROR RIEA 1 GAC 5 TD TE 0 3 FO5IGL 18781867H} YAUN UDBU JMOR GASX 2127 ALOT {XP AORTALO AUOES SONULS M ETH RD GASXXMSIA 2 QC 8",
+        "lot_detected": "AXC4",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_035_20260202_132136_jpg.rf.493ef8123f09ac361e85d7e0797eb8da.jpg",
+        "status": "FAIL",
+        "raw_text": "G2X4 GASKAR GASX GASXE",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_038_20260202_132148_jpg.rf.e96700b1ccea12492d186b8eda91f574.jpg",
+        "status": "FAIL",
+        "raw_text": "GESX GEXU GASX GAEXU",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_040_20260202_132157_jpg.rf.6d6fcde84ac33e8d8f8efdc067cbc01e.jpg",
+        "status": "FAIL",
+        "raw_text": "GESXUAUAN GASX GACXURUNA GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_044_20260201_192216_jpg.rf.be538927f16e711a408634ff9c8b3065.jpg",
+        "status": "FAIL",
+        "raw_text": "VU8H EXP 2027/MOR 3 3 1 0 I 1 89 E3 1 1 2 8 WUBH EI0 ZUZTMOR 2 1 0 88 # R 8",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_046_20260201_192225_jpg.rf.5b88be2cbf07e0dd6d4e1f74247e5b30.jpg",
+        "status": "FAIL",
+        "raw_text": "LOR HOUH EXF 2027 /MOR 8 1 1 65 4 6E K { 1  0 D WB8H F 2027TID 5 5 3 2 1 { 0",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_046_20260202_132231_jpg.rf.e81d9377abd0ba5fd0a9b40184128edd.jpg",
+        "status": "FAIL",
+        "raw_text": "GAX57 S GASXTIU GACXU GASXT",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_050_20260202_132247_jpg.rf.f9164affc4db4e7a178e1607745f37b2.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXUU GASXUOWNMN) GACXU GASY",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_053_20260201_192634_jpg.rf.44bb05243f492b8e9ddb4017ef929d12.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXUUIN EN EAT ULM EA LIP 77 GASXMIN ES GASXUWVWN U UGTM KE ZANEANNS GASX NODTINSIVBUR FENS",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_053_20260202_132309_jpg.rf.4ea18689d43bc9ed5abc440d826e243c.jpg",
+        "status": "FAIL",
+        "raw_text": "GOSX GASXU GASX",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_054_20260201_192641_jpg.rf.43aa744a4b716688e7749e3c2634e69b.jpg",
+        "status": "FAIL",
+        "raw_text": "GASXI GASXUTHI OLBU GASX GASXT",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_056_20260202_132321_jpg.rf.8583711f6092ab529137b63a985beba1.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    },
+    {
+        "image_name": "blister_good_058_20260202_132331_jpg.rf.5576afcb910d860d45f64d18c2d50c21.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    },
+    {
+        "image_name": "blister_good_066_20260202_132400_jpg.rf.a3b266ec4d5a0371f085382e0bc07aa0.jpg",
+        "status": "FAIL",
+        "raw_text": "JPI JH 1 8",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_068_20260202_132408_jpg.rf.839babe0a3ea6dcf2b2302d516557a09.jpg",
+        "status": "FAIL",
+        "raw_text": "8 8",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_074_20260202_132448_jpg.rf.d6617532a59e3334df192934ebe7187a.jpg",
+        "status": "FAIL",
+        "raw_text": "'XSE9 'XSPG",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_077_20260202_132457_jpg.rf.8923caa038b0dbbf5fdc80497378d52a.jpg",
+        "status": "FAIL",
+        "raw_text": "AKSE9 UQUGNMOEXSEG XSEG",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_085_20260202_132527_jpg.rf.d8b97da242dc49e341da2bb84b0e6be9.jpg",
+        "status": "FAIL",
+        "raw_text": "W UAUR XSE) KSE9 XSRD XSED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_088_20260202_132538_jpg.rf.7efaf51a3231d842a315a1558f313aef.jpg",
+        "status": "FAIL",
+        "raw_text": "XSE9 XSED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_090_20260202_132542_jpg.rf.7b230212a5140fb7b9fdb5f47759cb11.jpg",
+        "status": "FAIL",
+        "raw_text": "MUTEATMXSUD BSLN",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_093_20260202_132557_jpg.rf.77a75609b17ba493717d1188967fd6e2.jpg",
+        "status": "FAIL",
+        "raw_text": "RNSXSE9 SE5 XSED 0",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_094_20260202_132601_jpg.rf.bd9afed2a0f58969e3c078f0f69c4498.jpg",
+        "status": "FAIL",
+        "raw_text": "XSEG #XSES S0S IXSES",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_095_20260202_132605_jpg.rf.d4f7f9989ce1455fe19e1b2fa0048b04.jpg",
+        "status": "FAIL",
+        "raw_text": "XSED XSED",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_099_20260202_132620_jpg.rf.410f306ae8fe294835c1a10b68ab9a07.jpg",
+        "status": "FAIL",
+        "raw_text": "MN XSE9 XSE9 XSE9 VP9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_109_20260202_132708_jpg.rf.f19b01b2902baf6e706b37b2bb9c5c69.jpg",
+        "status": "FAIL",
+        "raw_text": "WANEXSES XSEG XSES XSPQ",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_111_20260202_132716_jpg.rf.70d6f85d1b0960c008ff432563541bb6.jpg",
+        "status": "FAIL",
+        "raw_text": "REXSED XSE) I5L9 9",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_114_20260202_132727_jpg.rf.2f6213620d85f9ec1e939324226ac6b2.jpg",
+        "status": "FAIL",
+        "raw_text": "XSED XSED X3C5 29",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_121_20260202_132756_jpg.rf.e1423fdd6c01c772baa2783c4249da5e.jpg",
+        "status": "FAIL",
+        "raw_text": "'XSRD",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_125_20260202_132814_jpg.rf.e84af34ca78c234bcf832c3b802f317e.jpg",
+        "status": "FAIL",
+        "raw_text": "XSE)",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable LOT number."
+    },
+    {
+        "image_name": "blister_good_136_20260202_132910_jpg.rf.cbe7a031985f4439f7177590be9ee941.jpg",
+        "status": "PASS",
+        "raw_text": "[MDREZAL 625AXTURSTN GH_SOFTGELS DERED1 FHIMIN 12474657E0CHN TNNLONWNH WEARO 2AKJALITS 8 LUDUDAFLUGOTE: ERDTRIT DONITERCETDZEELLEACIN?1 07NAKEINTE TO DEUXTCIEINOLEPUKO STEATR\" IELON*N2Q11M 2*-5*ITD /\"H RRTEETTRON(GT 6TAN:MAJTRA. 3 DRLDGSKCH, #AVAI MJUNIS AHUND4E84 EIV9ESKETI ETEU: PRNETCCTTADL LOT MDBH 0 FATTOSIBS ARTDOR IETRARDOE 8S< EHRUCH 'OLL EXE 2027 /NOV TTAEFAAU GASXITUMSHAGMH_SOFTGES 2 DOJE M1UNUUNCHHNN \"2NNENTAG4 HS SNOIORARTAKA(IO 2.04,0315 02ND8O A140E REREDERDIOC DOOSTERE{ID RAITEEB \"74T0.1EU548TNJER AIVGINC 0JD MITGI ENOIAEHISGRN 5 {DLOUMIOLIBJID LIS :IGRTTT] FROTC TOBLOS HTINNOES DEEBCESKCK MIU5; 62CONC0TI64 FRE AOTTOEL LOT VO8H UOUABIC ED D FARALN ST\"E JEL LOIHIJ 6ASXHNUMSTNE GI SOFTGELS DDERZTO TD ARDETIMIEN 29700352001 MHTONMNNMNN1O 25FALE : NTDIDAFIRIOTAI: ARDTRIE DONITERETO?OILLPISIN?1 OHENTNUNO EDONCCO6I NOIOPNIEON STNORAETTR  IPIDINEINJSA1IM ITO H\"H NATCCTRONIGTE MITANEMOSURA, 3 DKCDIGSKCH 4ANA' MJUNSS MIICONOD4ERR AEV19GSRCILIEETEU\" TOTTQAL OT MDBH ATTOGIKSEARCDARDETTSFDOT OS< CHRUEHTOLL EXP 2027/NOV 3 2 LACH GASXXMUNSTRENGTH SOFTGELS 2 DOCATE S]UNORDTLHAN 2TN0TA64CHG ENOI_ RTAVARIO {EONROEI AETDTDANEENB BTOTOTN DOOSTERCAD ZEIHONB N74TO.RREUT9 TNJARATEAINO IDE ENOTOTHISACN 3 SIN\" IEDTONATOLLADIO IE TNTL E TOEC TOBLO T KATTR NUSLL BIESKCH VEMJU055 520ON1C019864 SUI ITA FRES COTTOD LO VD8H HUOUABION UE PRER N8 O",
+        "lot_detected": "625AXT",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_139_20260202_132923_jpg.rf.1e1d3e7f045e08021914ab9fc01ca2c9.jpg",
+        "status": "PASS",
+        "raw_text": "IDI AMCS GA5 MAXIMUMSTRENGTH  SOFTGELS 0RR 44507511N151IJDTAORLE NTANATHWERT16223ON505 LCON INEL UBUNU DON:TORE  2SONNXRAR UETUERT 0IOI TAA LPETISO LAIKEIY: STZT_T COJUO LLOR_OIGNIC JLTTR 7645  ITE-IT! PRRCERTH IGNT,JTETJ DMOST:. 8 ~UL DI GSKC4 HEITEI WJOIRY PTOX 62*OMQHIE SIESEWTITETSAT NOLLEAL LOT VDBH X TORARCOAIE((IONAGSS THROUPH FOLL EXP 2027/NOV &EMO@EICOINMCL GASX_TUUSLA SOPOES 2 DESCJE (OU1AARDENISIDS OERLE ; JTDGHIG TOTLONAEIMAICE88(? OLG: *U KBORHET TEOTTIN} [0\"DUINRALLOTBIC {BXRSECU DRTH40D} ERDERTMENOIEDTASKEN 5 SEMOICCODLLO1TOINUNILIMLIBA2**CO}-/1\"F| CROLTC:IONTCHEAL DAEEER GSCAMJIIGT MJURISS #@ECO1IR 6SEU(COAEED ?E*ECLSPEL LOT #D8H [CUEHFOLL 2NE UV JE IL NMCT GASXI MAXIMUMSTHLENGTH  SOFTGELS 03T5E TDNRS0TDA4IRT MATIGOICOD AT1O2 3DN50, EACDITERATNECLT HTBRBINU OON TORCTO2SOL; OURAS; NETADERTHANDO TOTELOB SADBHRIEIYA STERO ITCOJUO IRDRJERIGOTT ITE T PRTCERTLRON I0NT ATATJSDNOSLEA, 8 ASL T . GSK04 METEET OJO1IRY PRUSS 625(OD)ITOHIET CGSEUTIIE1SAT EOLLOEH LOTVDBH OE OANEECIDNAGSS CHROUPH IOLL EXP 2027!NOV EMDECOINMCTS GAS MNIMUMSTRENGTH S0PIOAS 2 DTRCJC CONRAATDCNTRIU TZRLE; ,IDQHOE GUTIOKM ALCEC OLLO 89 NIRDBORHATT TJTORKTN] [0\"0 AR IND2AALTOTEIC 2TBOCRSECEK U DARTKONOHD URDERNMENOIEDTIKAIN 3 SEMOLCTOUTIN M01N*NJTIA IBN-25\"C6}-11\"FL TROLTTEIAOUTE FEAT DOEN CSG JUAT MJURJSS SDLECOLUE REES UNTORT PTTEOLTPUL IOTJDJH #OUEBTS1L C3IS CC 2NE IUJ E",
+        "lot_detected": "CON",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_good_148_20260202_133000_jpg.rf.568e9019cf8fc601373d8ff6081ecafa.jpg",
+        "status": "FAIL",
+        "raw_text": "FEQU ILOJ QURANN HBAR 107 [EDUCSGEND I XAIUMS HIQMOKI GSCOTHAIRM \"HJYS9 4710 QOTOFUILLTY MHURBNEY U UQJ.RWETAITOIVIIN AA TADLDIRRICS UIPPM:0I UIRRRCD: A34E04 OANMDARRSINCYTEUIATO1IGTZN82 20.1000 ULNIEL1OO:C HEDUJJURECOAT} EPLUESTJTJUU NONDE IAOPICARIARLT[LYP [UAAJEY 1VO 8 GUN403 HIIKBHISLIHMH XSEG DULA OMHLE AON2202 4*3 XSJIIORSL*1JJ ETUVO-HLUJII 8 ILO} 4802141 6844 407 INBULOS504D JIN XSI LR3 HACUMK.TY {91(IR\" U 'HJYS9 4750 QIDSNUOIR AIL 1L0I4MIIMY UMLL LYN.SCU: NUCO.UXUTOIPI TMONINGSS 1 3A UEALSTUP [1PUT16 1O  OARZUICND RANADNWI MNOC ORPL 0 JHOSZ\"] [ MIRWCNM LLU{[3 Z0 LOIFLT;01 NER #URTTD SEOL40S HIDHEHSI HEXSE9 {L0E YIRTEDUD O LOJ ILOJ 4URANN HBOR [07 [EDUASGONA JE S9GUSA HIOOTOKI SS VOTHTAIRY 'HJYS9 4710 DNCOCORUTIEE IINURRTIEU\"U UEOJ 3-(R TAITOIUIUORADETANUDIRAITS UPPM:0/ UIRRRCSDAD BNERA HAOINTDARRSNICUTE  ATOG-{039 J0AJUOO UIDIOT1OOEC ELOUJTHCECO1 PBTUOSZJEL HURONAS IAOPICANIA MIMLPMTANIY AETE0 8 8191403 HIIIBHSWONMMWS SED JEUME OMICN MON 202 4XA 4URAIDI NSJMIDEL JIJ ERUYOSHINJIR) 8 F84N 207 1O,OSE JESINA HSD LIE GOUD KBIENTTOBIATY FOJGIN IITA '4J7S9 617510 8 QITSNUOIR R1L 100IENIM14 ULEKYN SC URETULO UT:UTDIROEMUTOTOACS [CATICNOL9NHRZ4I ZAIRIARIVOG] WIN1[OTIC)I 40JUINAUPN { HOUGZN[ HI-NUTC} LOIL TPEU15IEO ITTOD  SJO1408 HIIMMSHOHIXUI IELI CJA XSED",
+        "lot_detected": "LTY",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_149_20260202_133003_jpg.rf.9ee542e9ffe062999bca1d2fa55d4bf0.jpg",
+        "status": "FAIL",
+        "raw_text": "YEN HEL 9ENORH AROA 107 [EMIOT 3IRIMXEBIL XEU)IGCORZS EAIUIIN #IA X9I30 CCMIIEAL NIQUONJ)NOLS |3,21-A11*5RONITO UNU:0 5'13M1LJFUNS 5 CEUUIO ONLADTAPTI ECON [QJNBIEERM WEC4IZTIEAUJIIG ZUEDJGJICUEG\"JUROA  PIAMAR S  IINOIDITU 3 HHKAZEI *I N @URN ROE RAIANZIU PLEDIUEINJE TOLCO0 3 SZOLS08 HLAMHSL IA HMMXSE) T AON: 22U8 DXA 4E34RI AS]*: [02IJJE-DDILNDCIRLIRT A 0 09QA 107 484OS= SLD 45O1*0*596I02 AESC(01AZ9 USILORA LOLR\"MJ 33/4 50 FAUSODPICRCJ: 7L0| INHIAMEU UMCLYI_.SZOZ RUTIRANCUP] NNOMQNN5:.9 2IS 0 UO IYIRAMA HURUB LKUTENIZLRA 2U RUUN 'LNRJEACUR SLTU_ NICATPICU 1 LBVS APEUILDUULOLLU:%T0) ARIOQ 919140S H491HSWA HMMIZXSE9 IEALE LELUENORH KSDC HBOR 101 EMIOREEATE DOL AELEOJITTORS BADINNNANNOXSGUD COPIN[EA4 31CQOOUANTINLA [A8!-01125 7ONICS UNUZ0LBR MTOYUNS JDDETOS COSTUADEZUN \"ICON IOJEN DTRD *EC4IZ ITADIIGAZURDJ(JITUCG JUROTAR CATTE MICORDNEC SPUKAZI? JCP DELO LPDIUEINJE TUTM0 ED 8U0L508 HIBNBHISWHINIUE XSED SUIROITNS ON AZU2 8A 4S4 {[0U1II'ODILNDSADIT 0 ILOG 4EAONI K9OA 107 E8TIOS GROLD 451V1 0 596I088 EOUNCOO1AZ0 OILORT RORET HJ 97450 3 TOUGOUPIC;OJ\" TLO| INIHI M*N UML(YI_ SZUZ DITIRACUPUN NIOMIONNN: 0 >US VONLICAMJNURIU OJ DIZPJST IUUN IANPOETATIN SI*8U INICOCPIEU MDNS COP[UIG9T LOIILPIUATITD) 3UR3O0 9139440S HI9WTHISE TTVLINB MXXSED NE UALI BU",
+        "lot_detected": "9ENORH",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_150_20260202_133007_jpg.rf.298aa59a27183dd38d57284ead6fcf4b.jpg",
+        "status": "FAIL",
+        "raw_text": "H8OH O JIOF QONONT IE BATTOTO] 4OBYO: 5014 SSNO \"AA.RM\"12XS9 \u20ac951G @HENSAACNADAEU 4AGOETEUU;( 609A5Z-0:4TOLELN=BCACWI LOS 9 4EPR 40DIUUE: ACTATUA WJEDILIGQJD DB8D1[4T WIOHALI #{PJRWE.UOQ MT RORU PULENEU JFZ 4 VEGOD G RIEAZIURAH PLEO #EATCD 2 SE9L-08 _HLILBWSWINEMA XSE9 RAN DORU AON/2202 JX3 MSWHACIUI# ATIMDSRLQRIL 0 ILO; 4ERA4 HAOA 10 | INBULOASRLD 20IZIJGESS6ID8 EEREETOONIZ GWOCR 'DI.R#HJ XSS 0R*0 QIEAUALUNAU LIULLUICU UALL BJI: SAIWILUSCUNILUJAUE{ UMLJAAN LOLS 0 VAO:/4IRRIDINNABX UPRIDUL { ABHMUIAEMY -Z01RAIGIIOU 1410492' [NI SI*EUELIAEPSEU 8 TT YUAN DJECDIEZIUIN4)EUS SITPIRJ0RACD S1408 HIHS HXSE9 A  1IOF QONONN S H8ON107 OBYOAEOLD IS KANTOAO) SENVOCHNA2N77S9 0517 OLKSINUNNTATL HAGU TENHU54JE30:TCCOLNUNA BA UIA \"001JE 40014028 NAOTTEU NCODIUTOJO DJARRNIC4 OTOLTEZPIE NIUO  JOINESIOE0 MUITONANAU AMEZ #HOD { ZVAYPIEA BASOD 2 81391503 HLINAHISWIANMW XSED DRUN SETNDITS 3 RON2202 JX] VEAARI NSUMRAICMTIMNSALO PAOA 10| [845 GID 303121.0 SS6I08 U587GEC(OJI[Z9 TAIROC 'MISN HJXSO 0E80 8 FOIMICNUOLUNIAU\"LAJURREICU IALEBJI: 5RRNTLUJCUDIUNINULI UMUDBIU ILS VROS4IRPINDINNCRS UTPJEICUA OBHIZUIGTULIE_ZQIKUANCLOU ANODO5UENI SINEU MIOCDSTU : PUCR NAILKS 'LIODUECNJEZIULE4JEUI CICPT T0SOD ST391Y0: HIDIBHISHNHIXVM XSEG ID ILOS",
+        "lot_detected": "ELN",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_151_20260202_133012_jpg.rf.f2c3f574caeca07b0eccedd2a069df80.jpg",
+        "status": "FAIL",
+        "raw_text": "TECU [DJ 1804: PJ QUNONYI #JESI (ELOS EA 49R(44J9 6510.7\" VINAI 914 7W0 6 WTKNUJLOMZILNILOINNMTJE4 11.49B9-9Z0NI\"IUTLU:OIEUE UNS LD 10VE; UEOTJEUN RJYDA MHIJCIBICRIGLINIIZUTPLYR? HER1I*IOI0 N PIUIM REOTE 08SRJUBE\"( UIWL KS NENEUSITAIZIMEDINAD:E >ITOIFIBRTOD 0 SU3L0S HLONDULSWAUMLA KSE9 IA KHAHA AOK22D2 J*A 35H \"EVQHJAIJOPJIMDTHUQUI 3 121 QBNOJYA M84A L07 MEYOR CHKAIN SSBIDDA JNOM(OEE G3[JUFH LAIY 12759 /D 30 3 DIUP DPZEIEJE ADINOINA0D149IIN 5 RRDIR Z:014ND:4AIIQDLOJIR 1M4S UUUUNB WAIAUSHLE HUMEVUU K4TPLINS #RJJOIUIEQ 10T2'QJLRUT STO HUCA#PIID 2 IKULCNS: UJPELNIOSZIUIDHIERIBE (QARANDO SILO:  HLOIBALSL TXSE9 107\" IM ENR ITTERUG G 18 ONE0A OR QUNONT JJI5ISI HONTULLTG KOLIOSEERD 651 [M UNNANNOIJ TD ONTKSNUZLOSTRUNLOIUMITION4 J 49B19 9EZONIT SIUTIUZOI INS JOVUE UEOTIEUA OJCNDMHJBAIIC NOCTORIZUEPLLAREZIRRJEB1UIEL L MNSRIDICROO LUS UND{W UGCAMUU JOENEUSITUIZIUEDOINAD:E STTOI;TOTTOD { SQA9LJ0S HLAMANSL \"SMMMEXSED AOR ZZD2 8*A J5 FENOHJZIJOPJINDIHUIU 3 M8DA L0R OL QUNOZYA AEILIN  SSBI25 MOL((O)KE JABHOR GILZOFH LINY 10759*0 @N ORTISO DPZEICJE TDILOINE044NS491I9 %ROIT UIRORHIND IDBIONLOJ1R2M5 3 ENRURRNWMMBSUC RIJJOIUICO VLORQJI SRO MIICAZPTOU VETO TCRS I0 ERIO Z1UBN!IEPINE IO: TUNOU 2 SNJO1Y03 HIONDALSWOWIXVH SCTARN ENY P XSED",
+        "lot_detected": "OMZILN",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_154_20260202_133030_jpg.rf.7ba9ff1abecf59c907527e5a397895f3.jpg",
+        "status": "FAIL",
+        "raw_text": "EAUC ILOI QBCONN HBAN ON [NOBIER STNND KDHTURTTORS 6IITOR\"4 WAXSJ 30 QIFOPUTNTU PU H TTSU C (RAITLEJ):UR: UICIATQNLCO1LQBIS 5 M LEDO[EUSTETTUN (JVALMHILRITIGANU LOJUIZUIYIULLYJX F(Q1LBIDJEU 'ICOMIQ2LCEIICU IIIEDIC 4 39004: {\" [5IM IURNANIMS %> [J'LANLLMU RJILE 4GTOO 8 STUOS HIPNBULSWILMH AUA RTAOOIUAIE OM 2202 0*3 >SD {1O|N  UYD)A:FQJ 8 HEAN 07 HO} 4BNOJYI \"JEUJJS URSYLILD  IPBYOA CRAUD {ILO*6 '[QIISE \"PRRS ID SERE _QJTY 3 'RIDSIJUELOJADU 4AULSDIEU J LCES U.IC (U#II RIACRUCOIFE12NN31RA.MS UIP LYL'MU:TA(MUICPEY ALNAIE  DERTYTG KNEEZPJR END\" UOJTQM[U7 AUIBICECPIEU 2 KEBTOLER O[MARMNTH ONDIETOJ}I ZIEII[3DRS(QIAEREEO 519140: HKAMS HXSE9 TDOI XSED 4750 WMQUO ILOJ UBCONN HBAN[05 [EOBLOA GRL8 KALTUTTR} JJICOR\" HJYS9-420 BU PUTLITUS VESNE  HAECES JKL (ZAITICNRRUR UNCIECIQNTCS]EOTIS 5 JEEDO [EURE1ALITU (OVARKHILRUTIGLUDENJUITUIMITLOYSFONIBIDJEU 'JUCDACIDDLCCIUNU EICDIEONE 3 BTOHEINI MUMACKS T NEE TE ICZO0 8 SNOUOS HIDNJULSLIILDMW SED OUM DIDOIUTB KON 2202 8YA S9 IS1OIN  DSNU EQUJ 5 H8ON 107 I0} UBNOLY} EUJJS USSEGIIDG TEBYOAGROUD JSNVOSH 'COIIGT} 43155707510 #OBRET(LLLKY 3 RIMRNUELATABU UMOI SUIU IOES J IT (CAITRIATUAUCOITE11283TRD MS ~ULP IYJ IOU:IE(JILISPE NELN5I8: DGITYTEHIGRMIEKZPII ORIEC0 UOJTQ\" [UARANUINTECPIIU 8 KOETOUZ ? 0[BUA CONDICTJJO IRUL PDERKTIQHLRTTO 81391408 HDIAMSWINIXVM EDUCND XSED",
+        "lot_detected": "QBCONN",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_161_20260202_133059_jpg.rf.da6a783d634def4a55392dabb46bc9c1.jpg",
+        "status": "FAIL",
+        "raw_text": "FA DOI '46 AX 7 0 44 3 0;0 KE} 4I 0 4 WE 3 7 4 YUC ESOY HEOR ON QASERINE 4BHANVI' HODLIOR OAONNA= I SA1D IOLE 582*9 JAAZOX\" 78 \"LI~ DEOLE RH EWVOTN O ROY= '54NZ ~ONAU 0INS\" AOM / A M4NM JOX: NR 1202 OOOH U 0R:  STOLJOS 31 HEJA 4XA AE 3OE HIBIBUS NCE 107 0E AOSE 62S FOFUOS SCA 8 LY= SALI  4OROAT NTO ESIE I_ OBLOS ' LD JEU FNMMNNE MSEKC# 1 I6 {Y SED INI 744N 4SINS S5348*4 353.1 NACINC EYXE A \" 8 C WJASJ RAD AC D 41 AINO 5191408 JA# APE' DIXE 8 HLONBHLS 08E ERE JOXIS XE AP T= 07 LNMIXHT ARED 0S XSED 9 E A \"0X0  0JO 86 1S 0 55 9 F 6 (SED 785 A \"C 3 IO 7O J9 A D6 SED 3 EAU HPOR 0 JOSE9ISN OL ADROIVI. FODLIOR JOHERORO AID O= ENCC 7AOL 1S318_ 2 V5 UIOLS UROT 8OOS IDNE AORAA ROINA AOUTA NJC JA 9U1 {1202 JJAD EOOI TDAE2 STBLJOS LN HEOR AXI M TOS#' HIBNBUSL EATTE 107 J9SE ES5 JROS TC WOJ A STXLMIC 'VBRONT JESOJ6RR LAWMIA JTTTO ODIOS  ETUA JOOROND ~ISD MCNOE SON VOR 8 49DE FUAT EE ~S58T8F48 75LSINS  .5 NOONC OR A 4NEUNRR CA HJXSD- AAO AAJCU 51391405 80 JOANA AORE SIE 8 HLONHS 69E EC9RT OXIS SAE 4S KUN LNWIXVL",
+        "lot_detected": "IOR",
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "Missing or unreadable EXP date."
+    },
+    {
+        "image_name": "blister_good_167_20260202_133128_jpg.rf.0532323ed669139369cd1c8608ac2188.jpg",
+        "status": "PASS",
+        "raw_text": "6 4Y T C 35O0 D MTW 4 'CH W I0 Y 6 0 FOLT TY MA; 4O J2 DO CSRCH; 3I 60 GASXMUM TOOUNC: LID ISTRENGTH D 'AU 8 NNI N KOE SOFTGELS STYA BSSUT JEND VS A 9 UQ JAV JARY; {NZNLNY TTSTANLYO] GSKE STNOMNTC 2 KOSTAT JGSE~K 178-79*808  KRATASAM UNKNVODIGX 4IIAR SRE 09RR 086 IO2TO  08S TDC PRO*ERIE OTUT GASXMAN ON PRE ET OEE SOTTOET THROUAH AIE ANYO  DANK TOORAJE OT ISTRETGTH 0O LOT 2 AEN U VOBH LNUY AC SOHTGELS {P GC CKA BEUU 2027 / IOE ? KSGOKIAN 4OSECOALE HOV ATD EAO CECX5CN-/RA S{ ZOHA MAIET VNTN DIRTANT IMATC 197959 [45OA FEFO  OARTUR RUET> AEE REALAT OLTOEL THROVEH} CATEE FON LOX 4OBR 22 ATY I GTS 15 MET SRCH % 8. I35 3 FOIT TL I J2 D6 IN KNTOR GASX MAXIMUMS FOORSTE: JED ISTAENGTH JOR IRTD : A NT ~SOFTGELS STRXO  E NBSCOCR TERCANE RITEKO S JK TCOC JONE JARTY; 01829ZENS STCAYO  VSI CONTO 2 JOS RRCITR FAENNN JAKA CJDIGS MTCR JR JNCR 02T0 5685 CTCETIORATTTI PRO\" ETNOR GAS) PDS S OCOCAD GNUMUMS SOTTOEI TBROUAH AT ROS IOOTAST N OSROE ISTETIGTH JSNTUAY LOT ER AYEON O BBH SOFTGELS YIP ARC JORVE TWA 2027/9 OSECTAN SOLO KOOOLA 3OSEODANE 'MOV DATD EEEORO 'TE NTO GSKCH LST OHY 12485 MATC? 32N JOSS ANN OARTH AO  48ROES OLTOS CAN ATHROBAH YONE 6701 LOX 'OBH 212",
+        "lot_detected": "NUY",
+        "exp_detected": "2027",
+        "exp_parsed": "2027-12",
+        "is_expired": false,
+        "message": "LOT & EXP validated successfully."
+    },
+    {
+        "image_name": "blister_nopack_002_20260202_130059_jpg.rf.487a60bf5f47b190ebf98c4de20cc696.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    },
+    {
+        "image_name": "blister_nopack_010_20260202_130132_jpg.rf.5ed6005e3509dce26d717954565a0975.jpg",
+        "status": "FAIL",
+        "raw_text": "",
+        "lot_detected": null,
+        "exp_detected": null,
+        "exp_parsed": null,
+        "is_expired": false,
+        "message": "No text detected in image."
+    }
+]
