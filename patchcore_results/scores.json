@@ -1,0 +1,596 @@
+[
+    {
+        "image_name": "blister_defect_000_20260201_193343_jpg.rf.02feabad599b0d31a7fefe1ab301c618.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_001_20260201_193419_jpg.rf.eae9fdca8a9191f4a674045d4f186cf3.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_004_20260201_193430_jpg.rf.4a4c94a1fdd9db50100192101a12139a.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_004_20260202_130311_jpg.rf.c93d34bea6754e1152411c1f295ce35e.jpg",
+        "anomaly_score": 0.6858,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_005_20260202_130314_jpg.rf.3421bdba96da2ddd07dcadc3b478f76e.jpg",
+        "anomaly_score": 0.6797,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_009_20260201_193446_jpg.rf.2e58b690d23b069b0f18775d0e516ed1.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_029_20260202_130532_jpg.rf.cccfe42aca53269cae1df4fab2595b73.jpg",
+        "anomaly_score": 0.5909,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_038_20260201_193952_jpg.rf.5bf73342f5aad223203d78ea39a10699.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_047_20260201_194034_jpg.rf.5c0abd2822a20c001b4d86009127955f.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_050_20260202_130656_jpg.rf.7fd9efdca811b60fac268ba3e8724c2e.jpg",
+        "anomaly_score": 0.5696,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_055_20260201_194114_jpg.rf.87c6acee2d31a28a949c6a9faa5f649d.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_057_20260201_194122_jpg.rf.e29de4d812d178b7ef4ca1b321306792.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_057_20260202_130721_jpg.rf.e09d0b3fd76f98264b6088f2e703b187.jpg",
+        "anomaly_score": 0.6221,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_060_20260202_130731_jpg.rf.a894cc4ea35ec89f8b8d8a3ecfb0d0d4.jpg",
+        "anomaly_score": 0.6134,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_076_20260202_130835_jpg.rf.c2fa60a0c5909ebae65c46ca76b9dca0.jpg",
+        "anomaly_score": 0.586,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_088_20260202_130945_jpg.rf.a73e72f0f3071530f520ed317b753fef.jpg",
+        "anomaly_score": 0.4348,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_089_20260202_130950_jpg.rf.6ad4e79ca24c1dc01e1a0246cfe15352.jpg",
+        "anomaly_score": 0.4792,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_092_20260202_131002_jpg.rf.cd0d1b050e37821b044c0d08d8ef2d33.jpg",
+        "anomaly_score": 0.4813,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_094_20260202_131008_jpg.rf.f5d8da6eadd1464f92199b936d3f8636.jpg",
+        "anomaly_score": 0.4794,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_121_20260202_131224_jpg.rf.deb6e12ba080b08246c29f7f36c44ba5.jpg",
+        "anomaly_score": 0.4863,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_130_20260202_131316_jpg.rf.670c6f0cd533c6009c46fe3bedab87cf.jpg",
+        "anomaly_score": 0.6081,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_134_20260202_131331_jpg.rf.700628473c99f6bb9784050e13daa26b.jpg",
+        "anomaly_score": 0.5192,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_146_20260202_131411_jpg.rf.d938e2a98e398efb65019ad3dea90329.jpg",
+        "anomaly_score": 0.5259,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_180_20260202_131652_jpg.rf.f1bca6ba667f74d5374ba8b2351bb1f3.jpg",
+        "anomaly_score": 0.4833,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_190_20260202_131751_jpg.rf.3d1c2220fef5ba667824f86542d3c522.jpg",
+        "anomaly_score": 0.5711,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_003_20260201_191521_jpg.rf.56652cd7f7896447e461c6f1def622a0.jpg",
+        "anomaly_score": 0.5325,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_007_20260202_131841_jpg.rf.25f329fab31bd96389a52f9c16fa1d60.jpg",
+        "anomaly_score": 0.3824,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_008_20260201_191738_jpg.rf.54771efd27eeb312ed91d0ca8beb9248.jpg",
+        "anomaly_score": 0.6095,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_013_20260201_191828_jpg.rf.f1804b852342bc224dc8bb6023d48c6c.jpg",
+        "anomaly_score": 0.556,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_017_20260202_131931_jpg.rf.99d2fd249502c4d1084ada22b8545a00.jpg",
+        "anomaly_score": 0.4145,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_027_20260201_192009_jpg.rf.b13ef368188a7956a14b765f5313445e.jpg",
+        "anomaly_score": 0.6104,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_027_20260202_132028_jpg.rf.48588e39dd7144a602b1b1a791806c22.jpg",
+        "anomaly_score": 0.3763,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_028_20260202_132033_jpg.rf.51dfc7a014eb65083f92e50e81d9c202.jpg",
+        "anomaly_score": 0.3547,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_032_20260201_192043_jpg.rf.b04fd5046e4a32f4061cb10829be8b5c.jpg",
+        "anomaly_score": 0.5236,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_035_20260202_132136_jpg.rf.493ef8123f09ac361e85d7e0797eb8da.jpg",
+        "anomaly_score": 0.4227,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_044_20260201_192216_jpg.rf.be538927f16e711a408634ff9c8b3065.jpg",
+        "anomaly_score": 0.4331,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_046_20260201_192225_jpg.rf.5b88be2cbf07e0dd6d4e1f74247e5b30.jpg",
+        "anomaly_score": 0.6616,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_046_20260202_132231_jpg.rf.e81d9377abd0ba5fd0a9b40184128edd.jpg",
+        "anomaly_score": 0.3184,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_053_20260201_192634_jpg.rf.44bb05243f492b8e9ddb4017ef929d12.jpg",
+        "anomaly_score": 0.5476,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_056_20260202_132321_jpg.rf.8583711f6092ab529137b63a985beba1.jpg",
+        "anomaly_score": 0.8276,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_066_20260202_132400_jpg.rf.a3b266ec4d5a0371f085382e0bc07aa0.jpg",
+        "anomaly_score": 0.4243,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_068_20260202_132408_jpg.rf.839babe0a3ea6dcf2b2302d516557a09.jpg",
+        "anomaly_score": 0.7723,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_093_20260202_132557_jpg.rf.77a75609b17ba493717d1188967fd6e2.jpg",
+        "anomaly_score": 0.4516,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_095_20260202_132605_jpg.rf.d4f7f9989ce1455fe19e1b2fa0048b04.jpg",
+        "anomaly_score": 0.3569,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_099_20260202_132620_jpg.rf.410f306ae8fe294835c1a10b68ab9a07.jpg",
+        "anomaly_score": 0.3878,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_111_20260202_132716_jpg.rf.70d6f85d1b0960c008ff432563541bb6.jpg",
+        "anomaly_score": 0.4705,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_121_20260202_132756_jpg.rf.e1423fdd6c01c772baa2783c4249da5e.jpg",
+        "anomaly_score": 0.5017,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_151_20260202_133012_jpg.rf.f2c3f574caeca07b0eccedd2a069df80.jpg",
+        "anomaly_score": 0.4616,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_154_20260202_133030_jpg.rf.7ba9ff1abecf59c907527e5a397895f3.jpg",
+        "anomaly_score": 0.4695,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_161_20260202_133059_jpg.rf.da6a783d634def4a55392dabb46bc9c1.jpg",
+        "anomaly_score": 0.5287,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_008_20260201_193443_jpg.rf.676839f8c9d7addb42c6d73c37f0d339.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_024_20260201_193635_jpg.rf.b4df94cdb00cf2883b78096496c3ad38.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_024_20260202_130512_jpg.rf.71bdffe788af840ccedb5715c430fbeb.jpg",
+        "anomaly_score": 0.6509,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_041_20260201_194005_jpg.rf.6720456d72327d10f5f44e2b44c94125.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_041_20260202_130623_jpg.rf.2f6859553f75860302e2dfc5d853b41d.jpg",
+        "anomaly_score": 0.6402,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_042_20260202_130626_jpg.rf.40c4d2d408233140e3db4597b451e936.jpg",
+        "anomaly_score": 0.6133,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_045_20260202_130637_jpg.rf.755d409a997b03cd4b5e30e7f5210e41.jpg",
+        "anomaly_score": 0.8263,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_051_20260201_194053_jpg.rf.1948ae8f21c728a5815e20fefa3dc0aa.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_051_20260202_130658_jpg.rf.846d46a554aa92c643a38cdb4f3bdde7.jpg",
+        "anomaly_score": 0.6544,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_052_20260201_194055_jpg.rf.d3dad7ef390cdc1caf3d8626d7d3ca2a.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_078_20260202_130844_jpg.rf.847a12d48c9b276c9045231fe0b0fbd8.jpg",
+        "anomaly_score": 0.5301,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_081_20260202_130856_jpg.rf.1a0fb84018a6e5d4d7e2b5a25f78437f.jpg",
+        "anomaly_score": 0.7324,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_093_20260202_131005_jpg.rf.54da4eb575404fff233b5b0010f9a573.jpg",
+        "anomaly_score": 0.4442,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_096_20260202_131017_jpg.rf.0babfcd22034fa6ac7ef6564029e1205.jpg",
+        "anomaly_score": 0.4202,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_099_20260202_131030_jpg.rf.74d3de6b4a1fb1320cb3a5981b660991.jpg",
+        "anomaly_score": 0.5534,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_115_20260202_131143_jpg.rf.50a33894058e1d1e74f11ba6b7e7b72d.jpg",
+        "anomaly_score": 0.4542,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_124_20260202_131241_jpg.rf.fea7a854ff0320adbe5133acbc368b51.jpg",
+        "anomaly_score": 0.574,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_163_20260202_131522_jpg.rf.21f7d1a78d2bef540d41b7716d1d367d.jpg",
+        "anomaly_score": 0.4667,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_164_20260202_131531_jpg.rf.cd4fb82e8d9135d97b1bc672329729cc.jpg",
+        "anomaly_score": 0.509,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_170_20260202_131557_jpg.rf.f1edd5fbb97e3f8b367162c6cc344a98.jpg",
+        "anomaly_score": 0.4128,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_173_20260202_131613_jpg.rf.d5c19950f67adee6bb2623495d69287f.jpg",
+        "anomaly_score": 0.6455,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_174_20260202_131625_jpg.rf.80371fd210fe9dfa3ff38049d40e8e14.jpg",
+        "anomaly_score": 0.5814,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_defect_181_20260202_131657_jpg.rf.4b4044ce8a5d9e4aeb910b58ff3685e0.jpg",
+        "anomaly_score": 0.5,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_defect_183_20260202_131712_jpg.rf.e078dc75563a59117da1f59120c530c8.jpg",
+        "anomaly_score": 0.5679,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_000_20260201_191336_jpg.rf.7aeb5b8751361b2363d954428c89760d.jpg",
+        "anomaly_score": 0.4972,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_013_20260202_131910_jpg.rf.cbe2b9b4c4fa4eea08c546ce955747f5.jpg",
+        "anomaly_score": 0.4202,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_024_20260201_191939_jpg.rf.1c0b7ae8934e32b9dc3db01bf4108d24.jpg",
+        "anomaly_score": 0.8621,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_030_20260201_192022_jpg.rf.593df0a009e8e29d5826fc082eb0ca9a.jpg",
+        "anomaly_score": 0.5555,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_038_20260202_132148_jpg.rf.e96700b1ccea12492d186b8eda91f574.jpg",
+        "anomaly_score": 0.3589,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_040_20260202_132157_jpg.rf.6d6fcde84ac33e8d8f8efdc067cbc01e.jpg",
+        "anomaly_score": 0.4419,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_050_20260202_132247_jpg.rf.f9164affc4db4e7a178e1607745f37b2.jpg",
+        "anomaly_score": 0.4476,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_053_20260202_132309_jpg.rf.4ea18689d43bc9ed5abc440d826e243c.jpg",
+        "anomaly_score": 0.4698,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_054_20260201_192641_jpg.rf.43aa744a4b716688e7749e3c2634e69b.jpg",
+        "anomaly_score": 0.635,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_058_20260202_132331_jpg.rf.5576afcb910d860d45f64d18c2d50c21.jpg",
+        "anomaly_score": 0.6281,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "blister_good_074_20260202_132448_jpg.rf.d6617532a59e3334df192934ebe7187a.jpg",
+        "anomaly_score": 0.3787,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_077_20260202_132457_jpg.rf.8923caa038b0dbbf5fdc80497378d52a.jpg",
+        "anomaly_score": 0.3664,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_085_20260202_132527_jpg.rf.d8b97da242dc49e341da2bb84b0e6be9.jpg",
+        "anomaly_score": 0.4619,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_088_20260202_132538_jpg.rf.7efaf51a3231d842a315a1558f313aef.jpg",
+        "anomaly_score": 0.3829,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_090_20260202_132542_jpg.rf.7b230212a5140fb7b9fdb5f47759cb11.jpg",
+        "anomaly_score": 0.3621,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_094_20260202_132601_jpg.rf.bd9afed2a0f58969e3c078f0f69c4498.jpg",
+        "anomaly_score": 0.4351,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_109_20260202_132708_jpg.rf.f19b01b2902baf6e706b37b2bb9c5c69.jpg",
+        "anomaly_score": 0.3818,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_114_20260202_132727_jpg.rf.2f6213620d85f9ec1e939324226ac6b2.jpg",
+        "anomaly_score": 0.5071,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_125_20260202_132814_jpg.rf.e84af34ca78c234bcf832c3b802f317e.jpg",
+        "anomaly_score": 0.4475,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_136_20260202_132910_jpg.rf.cbe7a031985f4439f7177590be9ee941.jpg",
+        "anomaly_score": 0.5373,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_139_20260202_132923_jpg.rf.1e1d3e7f045e08021914ab9fc01ca2c9.jpg",
+        "anomaly_score": 0.4753,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_148_20260202_133000_jpg.rf.568e9019cf8fc601373d8ff6081ecafa.jpg",
+        "anomaly_score": 0.4108,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_149_20260202_133003_jpg.rf.9ee542e9ffe062999bca1d2fa55d4bf0.jpg",
+        "anomaly_score": 0.5288,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_150_20260202_133007_jpg.rf.298aa59a27183dd38d57284ead6fcf4b.jpg",
+        "anomaly_score": 0.5435,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "blister_good_167_20260202_133128_jpg.rf.0532323ed669139369cd1c8608ac2188.jpg",
+        "anomaly_score": 0.5274,
+        "true_label": "good",
+        "predicted_label": "good"
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "simulated_seconds": 900,
+  "total_count": 854,
+  "good_count": 799,
+  "reject_count": 55,
+  "throughput_per_hour": 3416,
+  "defect_rate": 6.44,
+  "availability_percent": 75.94,
+  "performance_percent": 99.97,
+  "quality_percent": 93.56,
+  "oee_percent": 71.02
+}

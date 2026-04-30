@@ -1,0 +1,141 @@
+{
+  "rounds": 10,
+  "local_epochs": 1,
+  "server_address": "in-process-simulation",
+  "initial_weights": "yolov8n.pt",
+  "architecture_seed_weights": "fl_results_5round_cpu\\yolov8n_6cls_seed.pt",
+  "class_names": [
+    "defect",
+    "good_pack",
+    "blister",
+    "capsule",
+    "no_pill",
+    "no_pack"
+  ],
+  "history": [
+    {
+      "round": 1,
+      "global_map50": 0.221,
+      "global_map50_95": 0.1475,
+      "global_precision": 0.6157,
+      "global_recall": 0.1845,
+      "client_losses": {
+        "B": 0.7880313282015008,
+        "C": 0.8395345045463541,
+        "A": 0.7698907522508599
+      }
+    },
+    {
+      "round": 2,
+      "global_map50": 0.2877,
+      "global_map50_95": 0.1889,
+      "global_precision": 0.6194,
+      "global_recall": 0.3534,
+      "client_losses": {
+        "C": 0.7215094225561025,
+        "B": 0.7087415872162668,
+        "A": 0.7111632307809429
+      }
+    },
+    {
+      "round": 3,
+      "global_map50": 0.3069,
+      "global_map50_95": 0.203,
+      "global_precision": 0.6262,
+      "global_recall": 0.3801,
+      "client_losses": {
+        "B": 0.7127724958934987,
+        "A": 0.7182312371952942,
+        "C": 0.7398468684752755
+      }
+    },
+    {
+      "round": 4,
+      "global_map50": 0.3198,
+      "global_map50_95": 0.2087,
+      "global_precision": 0.6377,
+      "global_recall": 0.3865,
+      "client_losses": {
+        "C": 0.6909875601664974,
+        "B": 0.7209696573620007,
+        "A": 0.680083621897339
+      }
+    },
+    {
+      "round": 5,
+      "global_map50": 0.3382,
+      "global_map50_95": 0.215,
+      "global_precision": 0.6577,
+      "global_recall": 0.3942,
+      "client_losses": {
+        "C": 0.691409795778561,
+        "B": 0.6911909774532563,
+        "A": 0.6628535590945617
+      }
+    },
+    {
+      "round": 6,
+      "global_map50": 0.3775,
+      "global_map50_95": 0.2432,
+      "global_precision": 0.7152,
+      "global_recall": 0.4403,
+      "client_losses": {
+        "B": 0.6344578357860293,
+        "C": 0.6389692250078853,
+        "A": 0.6600966550972533
+      }
+    },
+    {
+      "round": 7,
+      "global_map50": 0.3699,
+      "global_map50_95": 0.24,
+      "global_precision": 0.7146,
+      "global_recall": 0.413,
+      "client_losses": {
+        "A": 0.6222303086945782,
+        "B": 0.6576098729365625,
+        "C": 0.6450710388116294
+      }
+    },
+    {
+      "round": 8,
+      "global_map50": 0.3865,
+      "global_map50_95": 0.2474,
+      "global_precision": 0.6979,
+      "global_recall": 0.4253,
+      "client_losses": {
+        "A": 0.6290308791938255,
+        "B": 0.6670302871174918,
+        "C": 0.6302930075813171
+      }
+    },
+    {
+      "round": 9,
+      "global_map50": 0.4067,
+      "global_map50_95": 0.2582,
+      "global_precision": 0.7124,
+      "global_recall": 0.4844,
+      "client_losses": {
+        "C": 0.6126706363001999,
+        "A": 0.6078744484738037,
+        "B": 0.638241530565048
+      }
+    },
+    {
+      "round": 10,
+      "global_map50": 0.4053,
+      "global_map50_95": 0.2619,
+      "global_precision": 0.7311,
+      "global_recall": 0.4509,
+      "client_losses": {
+        "B": 0.6766545230789154,
+        "A": 0.6161206727834954,
+        "C": 0.6295622586539682
+      }
+    }
+  ],
+  "privacy_note": "Privacy-preserving FL: each site keeps raw images local; only model weights/updates are shared for FedAvg aggregation.",
+  "continued_from": "fl_results_5round_cpu/global_round_5_fedavg.pt",
+  "continuation_metrics": "fl_results_round6_10_cpu/fl_metrics.json",
+  "best_round_by_map50": 9
+}

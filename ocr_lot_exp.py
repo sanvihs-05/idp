@@ -2,25 +2,29 @@
 OCR Validation Pipeline — Camera 2: Backside Blister Pack
 ==================================================================================
 This module runs post-detection (after YOLOv8 flags a 'good_pack').
-It uses EasyOCR to extract LOT and EXP text, then validates them using regex.
+It uses PaddleOCR to extract LOT and EXP text, then validates them using regex.
 """
 
+import os
 import re
 import cv2
 import json
 import numpy as np
-import easyocr
 import argparse
 from pathlib import Path
 from datetime import datetime
 
-# Initialize EasyOCR
+# PaddleOCR 2.7 can fail with newer protobuf runtimes unless this is set before import.
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
+from paddleocr import PaddleOCR
+
+# Initialize PaddleOCR (v2.7.0.3)
 try:
-    print("Loading EasyOCR model (this may take a few seconds on first run)...")
-    reader = easyocr.Reader(['en'], gpu=True)
-    print("EasyOCR initialized successfully.")
+    print("Loading PaddleOCR model (this may take a few seconds on first run)...")
+    reader = PaddleOCR(use_angle_cls=False, lang='en', show_log=False)
+    print("PaddleOCR initialized successfully.")
 except Exception as e:
-    print(f"Failed to init EasyOCR: {e}")
+    print(f"Failed to init PaddleOCR: {e}")
     reader = None
 
 def preprocess_for_foil(image_path: str):
@@ -93,7 +97,7 @@ def validate_lot_exp(image_path: str | Path) -> dict:
     }
 
     if reader is None:
-        result_data["message"] = "EasyOCR reader not initialized."
+        result_data["message"] = "PaddleOCR reader not initialized."
         return result_data
 
     # 1. Preprocess Image
@@ -102,18 +106,24 @@ def validate_lot_exp(image_path: str | Path) -> dict:
         result_data["message"] = f"Image not found or invalid: {image_path}"
         return result_data
 
-    # User Suggestion: Invert the image if text is light-on-dark!
     inverted_img = cv2.bitwise_not(processed_img)
 
-    # 2. Run EasyOCR on BOTH normal and inverted images to double our chances
-    raw_results_norm = reader.readtext(processed_img)
-    raw_results_inv = reader.readtext(inverted_img)
+    # 2. Run PaddleOCR on BOTH normal and inverted images
+    raw_results_norm = reader.ocr(processed_img, cls=False)
+    raw_results_inv = reader.ocr(inverted_img, cls=False)
     
-    # Extract text from EasyOCR result format
-    texts_norm = [res[1] for res in raw_results_norm]
-    texts_inv = [res[1] for res in raw_results_inv]
+    texts = []
+    if raw_results_norm and raw_results_norm[0]:
+        for line in raw_results_norm[0]:
+            if line and len(line) > 1 and line[1]:
+                texts.append(line[1][0])
+                
+    if raw_results_inv and raw_results_inv[0]:
+        for line in raw_results_inv[0]:
+            if line and len(line) > 1 and line[1]:
+                texts.append(line[1][0])
     
-    full_text = " ".join(texts_norm + texts_inv).upper()
+    full_text = " ".join(texts).upper()
     
     if not full_text:
         result_data["message"] = "No text detected in image."
@@ -182,19 +192,34 @@ if __name__ == "__main__":
     if args.image_source:
         source_path = Path(args.image_source)
         if source_path.is_file():
-            res = validate_lot_exp(str(source_path))
-            results_list.append(res)
-            print(f"Status: {res['status']} | Message: {res['message']}")
-        elif source_path.is_dir():
-            for img in source_path.glob("*.jpg"):
-                res = validate_lot_exp(str(img))
+            try:
+                res = validate_lot_exp(str(source_path))
                 results_list.append(res)
-                print(f"[{res['image_name']}] Status: {res['status']} | Message: {res['message']}")
+                print(f"Status: {res['status']} | Message: {res['message']}")
+            except Exception as e:
+                print(f"Error processing {source_path}: {e}")
+        elif source_path.is_dir():
+            all_images = list(source_path.glob("*.jpg"))
+            print(f"Found {len(all_images)} images. Processing...")
+            for i, img in enumerate(all_images):
+                try:
+                    res = validate_lot_exp(str(img))
+                    results_list.append(res)
+                    print(f"[{i+1}/{len(all_images)}] [{res['image_name']}] Status: {res['status']} | Message: {res['message']}")
+                    
+                    # Save incrementally every image to avoid data loss
+                    with open(args.output, "w", encoding="utf-8") as f:
+                        json.dump(results_list, f, indent=4)
+                except Exception as e:
+                    print(f"Error processing {img.name}: {e}")
+                    # Log the error in the list too
+                    results_list.append({
+                        "image_name": img.name,
+                        "status": "ERROR",
+                        "message": str(e)
+                    })
                 
-        # Save to JSON
-        with open(args.output, "w", encoding="utf-8") as f:
-            json.dump(results_list, f, indent=4)
-        print(f"\nSaved structured OCR results to {args.output}")
+        print(f"\nFinalized structured OCR results in {args.output}")
     else:
         print("Usage: python ocr_lot_exp.py path/to/image.jpg")
         print("Provide an image from the larger-blister-pack-defect validation set to test.")

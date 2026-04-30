@@ -26,3 +26,9 @@ test_images/
 *pred.jpg
 *.png
 *.docx
+
+# Generated experiment outputs
+fl_results*/
+patchcore_data/
+patchcore_results/
+streamlit_dashboard*.log

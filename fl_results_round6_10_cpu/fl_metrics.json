@@ -1,0 +1,78 @@
+{
+  "rounds": 5,
+  "local_epochs": 1,
+  "server_address": "in-process-simulation",
+  "initial_weights": "fl_results_5round_cpu\\global_round_5_fedavg.pt",
+  "architecture_seed_weights": "fl_results_round6_10_cpu\\global_round_5_fedavg_6cls_seed.pt",
+  "class_names": [
+    "defect",
+    "good_pack",
+    "blister",
+    "capsule",
+    "no_pill",
+    "no_pack"
+  ],
+  "history": [
+    {
+      "round": 1,
+      "global_map50": 0.3775,
+      "global_map50_95": 0.2432,
+      "global_precision": 0.7152,
+      "global_recall": 0.4403,
+      "client_losses": {
+        "B": 0.6344578357860293,
+        "C": 0.6389692250078853,
+        "A": 0.6600966550972533
+      }
+    },
+    {
+      "round": 2,
+      "global_map50": 0.3699,
+      "global_map50_95": 0.24,
+      "global_precision": 0.7146,
+      "global_recall": 0.413,
+      "client_losses": {
+        "A": 0.6222303086945782,
+        "B": 0.6576098729365625,
+        "C": 0.6450710388116294
+      }
+    },
+    {
+      "round": 3,
+      "global_map50": 0.3865,
+      "global_map50_95": 0.2474,
+      "global_precision": 0.6979,
+      "global_recall": 0.4253,
+      "client_losses": {
+        "A": 0.6290308791938255,
+        "B": 0.6670302871174918,
+        "C": 0.6302930075813171
+      }
+    },
+    {
+      "round": 4,
+      "global_map50": 0.4067,
+      "global_map50_95": 0.2582,
+      "global_precision": 0.7124,
+      "global_recall": 0.4844,
+      "client_losses": {
+        "C": 0.6126706363001999,
+        "A": 0.6078744484738037,
+        "B": 0.638241530565048
+      }
+    },
+    {
+      "round": 5,
+      "global_map50": 0.4053,
+      "global_map50_95": 0.2619,
+      "global_precision": 0.7311,
+      "global_recall": 0.4509,
+      "client_losses": {
+        "B": 0.6766545230789154,
+        "A": 0.6161206727834954,
+        "C": 0.6295622586539682
+      }
+    }
+  ],
+  "privacy_note": "Privacy-preserving FL: each site keeps raw images local; only model weights/updates are shared for FedAvg aggregation."
+}
