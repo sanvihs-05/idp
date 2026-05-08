@@ -31,15 +31,23 @@ from anomalib.data import Folder
 from anomalib.models import Patchcore
 from anomalib.engine import Engine
 
+import argparse
+
+parser = argparse.ArgumentParser(description="Train PatchCore")
+parser.add_argument("--side", choices=["front", "back"], default="back", help="Side of blister pack to train on")
+args = parser.parse_args()
+
 # ─── Configuration ───────────────────────────────────────────────────────
-DATA_ROOT   = Path("patchcore_data")
-RESULTS_DIR = Path("patchcore_results")
+DATA_ROOT   = Path(f"patchcore_data/{args.side}")
+RESULTS_DIR = Path(f"test_results/patchcore_{args.side}")
 RUN_ID      = datetime.now().strftime("%Y%m%d_%H%M%S")
 RUN_DIR     = RESULTS_DIR / f"run_{RUN_ID}"
 HEATMAP_DIR = RUN_DIR / "heatmaps"
 CATEGORY    = "blister"
 BACKBONE    = "resnet18"
 DEVICE      = "gpu" if torch.cuda.is_available() else "cpu"
+
+print(f"Training PatchCore for side: {args.side.upper()}")
 
 print(f"Device: {DEVICE} ({'CUDA: ' + torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
 
@@ -75,7 +83,7 @@ transform = Resize((256, 256), antialias=True)
 
 datamodule = Folder(
     name=CATEGORY,
-    root=DATA_ROOT / CATEGORY,
+    root=DATA_ROOT,
     normal_dir="train/good",
     abnormal_dir="test/defect",
     normal_test_dir="test/good",
@@ -90,6 +98,7 @@ model = Patchcore(
     backbone=BACKBONE,
     layers=["layer2", "layer3"],
     num_neighbors=9,
+    coreset_sampling_ratio=0.01,
 )
 
 # ─── Train (builds memory bank) ─────────────────────────────────────────
@@ -245,4 +254,15 @@ for artifact in ["scores.json", "threshold.json", "roc_curve.png"]:
     src = RUN_DIR / artifact
     dst = RESULTS_DIR / artifact
     shutil.copy2(src, dst)
+
+# Copy heatmaps to top-level directory so the dashboard can always find them.
+latest_heatmap_dir = RESULTS_DIR / "heatmaps"
+latest_heatmap_dir.mkdir(parents=True, exist_ok=True)
+run_heatmaps = HEATMAP_DIR if HEATMAP_DIR.exists() else RUN_DIR / "heatmaps"
+if run_heatmaps.exists():
+    for hm in run_heatmaps.iterdir():
+        if hm.is_file():
+            shutil.copy2(hm, latest_heatmap_dir / hm.name)
+    print(f"Copied {sum(1 for _ in latest_heatmap_dir.iterdir())} heatmaps to {latest_heatmap_dir.resolve()}")
+
 print(f"Updated latest artifacts in: {RESULTS_DIR.resolve()}")

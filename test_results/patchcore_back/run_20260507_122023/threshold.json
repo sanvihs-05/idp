@@ -1,0 +1,7 @@
+{
+    "optimal_threshold": 0.499,
+    "roc_auc": 0.7543,
+    "total_test_images": 99,
+    "good_count": 50,
+    "defect_count": 49
+}

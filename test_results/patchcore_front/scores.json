@@ -1,0 +1,482 @@
+[
+    {
+        "image_name": "z6642308258575_f00166f29b84f86b2312e7d7e9bbe95d_jpg.rf.2042ef77a1fe3de959b0d83cea3d122d.jpg",
+        "anomaly_score": 0.887,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6642308711817_8f9b7253ae0454ecd8ba6725d614a120_jpg.rf.d25f49677ebb09a7c996687af80dbed0.jpg",
+        "anomaly_score": 0.9244,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6643773511685_50881c11eb8ce03ac344c387c3a58667_jpg.rf.76ec696765b0d579030affb26235c089.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6643773544007_63b5f90d29ca94a28a6cbaae239c60e8_jpg.rf.405b2320a3330b517b74ad4cb729e3d9.jpg",
+        "anomaly_score": 0.916,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6734620758647_63060dae770b5a1435c6ff92d9c8b5f8_jpg.rf.f2c5f6b0850554079ba769f8121ef159.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6734621060892_0a941772d78d827514ced1d26550b95b_jpg.rf.96f642d0e5bf2eb1bba2935b499a04f5.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6735044692945_fcbc9f044b776087ee4e24ea924977a8_jpg.rf.170ed5ad247720757851683d305fd649.jpg",
+        "anomaly_score": 0.9185,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6735045532877_3b2a8a38947d0e8948b9714fe99843e5_jpg.rf.0a73ac24161d915ff61679e1d7b2aaab.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800394116324_1e451fd9d6ced3d111d2fdac34acf429_jpg.rf.2ebb3d4579058c03895dffc9634ea27e.jpg",
+        "anomaly_score": 0.614,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800403566330_7c5fc108606abdd5a11c97721b157fda_jpg.rf.29887b9403f6897b02175d510a011d17.jpg",
+        "anomaly_score": 0.3624,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800405132301_01afc89c809dc1953483907c3150c050_jpg.rf.31d369bd4c8d1f2cf1558e03522e67c5.jpg",
+        "anomaly_score": 0.9238,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800407201728_415c663d280da7d41c4fdd06c8ea0594_jpg.rf.69bf19ddeb6649c84499ea305c903311.jpg",
+        "anomaly_score": 0.865,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800407269914_a1c0b35c5cdb026b981e342a0d657467_jpg.rf.744c17f285012b08a14f6bd422d7c6d0.jpg",
+        "anomaly_score": 0.8498,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800409974834_51428a9a916959b9034741ac2d18bf2a_jpg.rf.ca5efc9856eb895e439d4a73801ddb42.jpg",
+        "anomaly_score": 0.9718,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800412148420_0fdb5294ec2b85633d214103e2e72c72_jpg.rf.df717827a2c561a78be45563b27360ea.jpg",
+        "anomaly_score": 0.4964,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6618296839232_59e3246db743233b748e777f86da17bf_jpg.rf.e3653768af6e2925de25a7c3476e448b.jpg",
+        "anomaly_score": 0.3603,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618299002028_0085c12f38b1ccfc74f8469baa7622d4_jpg.rf.8d82ac6c780d88c5d6ae3cb0b0588a49.jpg",
+        "anomaly_score": 0.3545,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307342000_c05c0daaffa9381abf5ae27aa06bd7c8_jpg.rf.a041e888d561cf1356eaf152b2d68656.jpg",
+        "anomaly_score": 0.3191,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307359673_ccc8e14fd3898ef46e1e201e3bef8977_jpg.rf.a9ce16cb8a06a5c298e4c4df613f5111.jpg",
+        "anomaly_score": 0.3327,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307411086_ceecafbd176776a52d37b6f8f99c0f47_jpg.rf.1229334e13fbd17da31b2e85a8b089e1.jpg",
+        "anomaly_score": 0.3036,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618308341239_9ec97b0a63024bf5184e5e7a9075b03d_jpg.rf.03df548eed7d788e098b9b1cce717c1f.jpg",
+        "anomaly_score": 0.5142,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6618308654869_b62fd9e780637f140bb39feceee947d1_jpg.rf.107827643620e8479566c71091ec4f97.jpg",
+        "anomaly_score": 0.3949,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618308665267_2212d7a49bb6e07b5cbd06905f4cf21d_jpg.rf.f932fe79cbc39b85e522a6473b549483.jpg",
+        "anomaly_score": 0.2858,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618308971226_90dd65f55a4f4bcb34cd5075b2dff5d4_jpg.rf.578b0f1087008e2caa7b400bcee67ccb.jpg",
+        "anomaly_score": 0.2976,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618309932425_57f894692f559e92e8c6f57332e6d0eb_jpg.rf.74e1c61c0fad4656e0ab36f7ae811d8b.jpg",
+        "anomaly_score": 0.3384,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311569860_1c5a72944d17537a4d80e90cfabe34c6_jpg.rf.ebfdc3837377f9b64d6ae1191e5d3895.jpg",
+        "anomaly_score": 0.3563,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311710798_81d507fed863addb44a1c35a9137a024_jpg.rf.8210b00a5cdc34041b1d750ac44c3f1c.jpg",
+        "anomaly_score": 0.3288,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311710798_81d507fed863addb44a1c35a9137a024_jpg.rf.9bc70750ed60d4961b3f9c36e095568b.jpg",
+        "anomaly_score": 0.2908,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311710798_81d507fed863addb44a1c35a9137a024_jpg.rf.ea9c266e35de6714ea6b321344f15dcd.jpg",
+        "anomaly_score": 0.3228,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311728893_c589515649bf989a88ad720bf123a525_jpg.rf.fddfd02f1ae7e225c11afd9aae540733.jpg",
+        "anomaly_score": 0.3447,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618315308233_0175f83baa2dfe2a3d35f58dc6d31c29_jpg.rf.b06af8f7befe413137c9499240cc6a24.jpg",
+        "anomaly_score": 0.8721,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6618336736785_e34f48a591cada61532fdc4aac1f27d0_jpg.rf.3768a900d1d7ae1453af15bdb1a06fa2.jpg",
+        "anomaly_score": 0.3886,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735269939007_74ce944ba52ff9efcb9e31aff6c72d49_jpg.rf.8a3aff0427162b06dcc1157640e35039.jpg",
+        "anomaly_score": 0.44,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735275318849_3dfc58c7b308a4f5d59d853867588354_jpg.rf.a9b5bbed0320f4e320fe66736e838958.jpg",
+        "anomaly_score": 0.3501,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735308096651_d3664372403fa3909ab74200ab03c3d8_jpg.rf.f6189328f83e32e63e45225615782073.jpg",
+        "anomaly_score": 0.3452,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735309430236_e2d12afe3b279e64e09d1952095c8254_jpg.rf.ed192ebdd47042df76d93dcfa8a329af.jpg",
+        "anomaly_score": 0.3938,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735309843282_a518fd4a2227f27e33b678f8e2530090_jpg.rf.04f0126f2d59a6e878617a4b24ddb837.jpg",
+        "anomaly_score": 0.3305,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735310956912_7363d5e8cfc5d8097804ac0772b035cb_jpg.rf.4ac4e9242b0b73aade27c99e9654d904.jpg",
+        "anomaly_score": 0.4047,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800393962706_82c4640108f5dba4db81886b0627fc21_jpg.rf.a467412752367df4a70d4b091a7c419c.jpg",
+        "anomaly_score": 0.6232,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800405054476_8b524437f271f3a770ebc5ea42434d1f_jpg.rf.f830bb6865df94074be1a80de954a5ed.jpg",
+        "anomaly_score": 0.3575,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800405079976_38e3cd024841d37deb9552e818d39f88_jpg.rf.3eb8f14a0d02a87309c167ea155a8a8f.jpg",
+        "anomaly_score": 0.3785,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6642022597800_10563deb65ef91549800077a0e492cc2_jpg.rf.6831865e219e34d974bc4a7891338161.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6642304975578_dd65ca176adda720f0fb602510b9f7f0_jpg.rf.78967de950b83d9fecfe68b3c255c084.jpg",
+        "anomaly_score": 0.8567,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6642305004347_8640fc013c1c9759f56db4d86ebb38b3_jpg.rf.87362a22c0b15dc410b21cb36c2251c5.jpg",
+        "anomaly_score": 0.9805,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6642308259807_e202d5de06e4089450b93c0fc41cbaa8_jpg.rf.01cb40e3eec58ed4585c67d178af43d6.jpg",
+        "anomaly_score": 0.9137,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6643773540834_9b22be41bf119304f7d4113d9f760693_jpg.rf.2c4603db778bc9316aed7d0c68db8b9a.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6643773540835_3587a331b49d05f116b5c0321e1ec7d7_jpg.rf.21d1cc6c8b0da8474c31c39b3a8ccde9.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6734623741763_6fa384210a57c2ef017ce75ed2adf531_jpg.rf.16f98a9974b313909a2403e9c32f81f6.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6734623766678_d071391806e05b4039033836cb29f8a3_jpg.rf.3f9e2a855cf90f9f4e58d06b257b55c2.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800394119670_be41138cec529fe346eb55bc03ae00cf_jpg.rf.f4f181efc609c67b54b6f120e4231707.jpg",
+        "anomaly_score": 0.5,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800399304774_7993a100e5d23884d292ce261fea3e1f_jpg.rf.ae323f7527de0b92c797353a39070bb5.jpg",
+        "anomaly_score": 0.294,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800403014835_75e6645a8f9ad8d62378a2917f1d62ef_jpg.rf.ee50a39c05e84aa5fab295124d907c14.jpg",
+        "anomaly_score": 0.3769,
+        "true_label": "defect",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800405241893_67e75f1c45e806c7d040dd3f975a202b_jpg.rf.219e69b74ac6b26d1ecf3a35413c0788.jpg",
+        "anomaly_score": 0.8638,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800407392687_b240a6728fcf5e129cacb6a835183ed6_jpg.rf.58fb441994258f8a8e36064891659d8e.jpg",
+        "anomaly_score": 0.824,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6800412821965_d21747f5583d1a287b331cb7ab882513_jpg.rf.af2f8b79625162202926f334d8d2c436.jpg",
+        "anomaly_score": 0.9722,
+        "true_label": "defect",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6618296897963_f1fcf296e4173d9453633c16a6bf085e_jpg.rf.d7418a95ad7ff9fd1c20e83495dcc56a.jpg",
+        "anomaly_score": 0.3708,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618297489552_ab535075c99adb4a7bb2fa08f9e1985e_jpg.rf.9af3a94bd6e053fd7de77c6534716019.jpg",
+        "anomaly_score": 0.3434,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618297993731_1ae1936ab104746a093226fff65aef41_jpg.rf.c333bfee59c580f5d0b703f1c1fbde74.jpg",
+        "anomaly_score": 0.3233,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307195101_e8d2198aa6d0fd5ab83b6bf204b80df4_jpg.rf.c76a6f552e1fa1621bf49d139bcf13c0.jpg",
+        "anomaly_score": 0.3651,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307342000_c05c0daaffa9381abf5ae27aa06bd7c8_jpg.rf.d5daf945f2eb54b7c39ccb5de9e1b19a.jpg",
+        "anomaly_score": 0.3763,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307405721_f37973ecabe61da0bc69e9c7de8e27c9_jpg.rf.35f9211e3340d0f8c351af1d970c442f.jpg",
+        "anomaly_score": 0.3374,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618307807440_d8b4140553ac5a13fa4b32874f336d17_jpg.rf.6b0a93bc8920854725615f750e673784.jpg",
+        "anomaly_score": 0.3173,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618308006173_5549720e6e68283a085377c31ee5de10_jpg.rf.e885e7d6e907c085abb72a33fc2183c3.jpg",
+        "anomaly_score": 0.3552,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618308654869_b62fd9e780637f140bb39feceee947d1_jpg.rf.ac7e949d5c0ef0c1b04a86a5ceb59b92.jpg",
+        "anomaly_score": 0.395,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618309500523_49a8c076b76f8fc7e1331748d7a372f4_jpg.rf.a667738616c702fed38563d5499333df.jpg",
+        "anomaly_score": 0.3395,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311552168_236ab2b5ced8393fb8a7c9b9161595e7_jpg.rf.81c8a27903d42d776f9b35c242223581.jpg",
+        "anomaly_score": 0.3497,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311561404_787a7b20965dc2bd35c9a1866ed67ec5_jpg.rf.32c682f82f0ca502ff2e21feaa680f56.jpg",
+        "anomaly_score": 0.3203,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311636037_2c12665af92a04300982705ee5552144_jpg.rf.40641bb6285e6db8617745111c259ff9.jpg",
+        "anomaly_score": 0.3026,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618311636037_2c12665af92a04300982705ee5552144_jpg.rf.68eb570fca057c9dd00265562b94ca76.jpg",
+        "anomaly_score": 0.2955,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618326127184_6749e9302ddf95e58b847df9388e016c_jpg.rf.fa153f84d9d3c884a90aa4ca94982e95.jpg",
+        "anomaly_score": 0.3237,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6618336228205_926bd892e548d811c05b1fb041cd1a77_jpg.rf.1e8e3bae5fa7a9c2a275c9c165816591.jpg",
+        "anomaly_score": 0.4553,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6643773534212_0f082cd4a14445ac7cab465c78aa4d65_jpg.rf.f9abebe56654f69047848a451a74d007.jpg",
+        "anomaly_score": 0.8223,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6735048195626_b248b9c6e2861a984cc8db9560102a86_jpg.rf.e301402f3a2f98ed9293909d338f502c.jpg",
+        "anomaly_score": 1.0,
+        "true_label": "good",
+        "predicted_label": "defect"
+    },
+    {
+        "image_name": "z6735269481536_bf01e6fb65d1acfd1b5c090fbac2aaaa_jpg.rf.2482e50d182b49243ac6203a9c2768b2.jpg",
+        "anomaly_score": 0.4208,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735270247157_daf43fe9dad937fc15706fc6ec1a5cb5_jpg.rf.58c1e8b2e3427453e2abe2bc7a67560e.jpg",
+        "anomaly_score": 0.2898,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735270402591_a64289864a169cee6ddc7867511437d3_jpg.rf.064b521a7556a7c9a8a8e9a4a7f151f0.jpg",
+        "anomaly_score": 0.3083,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735273719542_39e801f4083f9f0c742857cf4c3446f7_jpg.rf.fc5ecf939b25e86542c663b279c84842.jpg",
+        "anomaly_score": 0.3589,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735307895791_2f2c862f76899388df5991c664f97636_jpg.rf.131227fb1f2e85e3565e480e1f8ade64.jpg",
+        "anomaly_score": 0.3329,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6735308714575_1c5f04a0c123db93f89dbd8e36ee2c82_jpg.rf.ed716eea7eb7fdbda3c099ed2d91106e.jpg",
+        "anomaly_score": 0.3562,
+        "true_label": "good",
+        "predicted_label": "good"
+    },
+    {
+        "image_name": "z6800399284839_f24c23b2d4b6f82c9893a1e27d5340d3_jpg.rf.88f18ff8ff13fe4728e297872953d540.jpg",
+        "anomaly_score": 0.3789,
+        "true_label": "good",
+        "predicted_label": "good"
+    }
+]

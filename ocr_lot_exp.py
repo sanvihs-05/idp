@@ -16,12 +16,16 @@ from datetime import datetime
 
 # PaddleOCR 2.7 can fail with newer protobuf runtimes unless this is set before import.
 os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION", "python")
+# Disable OneDNN/MKL-DNN to prevent fused_conv2d NotFoundError on Windows
+os.environ["FLAGS_use_mkldnn"] = "0"
+os.environ["MKLDNN_ENABLED"] = "0"
+os.environ["DNNL_VERBOSE"] = "0"
 from paddleocr import PaddleOCR
 
 # Initialize PaddleOCR (v2.7.0.3)
 try:
     print("Loading PaddleOCR model (this may take a few seconds on first run)...")
-    reader = PaddleOCR(use_angle_cls=False, lang='en', show_log=False)
+    reader = PaddleOCR(use_angle_cls=False, lang='en', show_log=False, enable_mkldnn=False)
     print("PaddleOCR initialized successfully.")
 except Exception as e:
     print(f"Failed to init PaddleOCR: {e}")

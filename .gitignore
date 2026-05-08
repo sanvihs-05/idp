@@ -32,3 +32,6 @@ fl_results*/
 patchcore_data/
 patchcore_results/
 streamlit_dashboard*.log
+streamlit_uploads/
+inspection_events.json
+.pycache_tmp/
