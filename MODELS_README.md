@@ -1,44 +1,48 @@
-# Model Weights — Download & Setup
+# Model Weights — Setup
 
-The trained model weights are **not stored in this repository** (they are large binary
-files and don't version well in git). Download the bundled `idp_models_bundle.zip`
-from the link below and unzip it **into the repository root** — the archive preserves
-the exact folder structure the code expects, so every file lands in the right place.
+The trained model weights are shared directly (not stored in this repository).
+Place the `test_results` folder you received into the **root of this project**
+(the same folder that contains this README).
 
-## 📥 Download
+## 📁 Folder structure after placing
 
-> **Models folder (Google Drive):** https://drive.google.com/drive/folders/1lZfFoA9We9UmszGCBW_vtFFexxZ8FL2w?usp=sharing
+```
+IDP/
+├── test_results/
+│   ├── yolo_front/
+│   │   └── weights/
+│   │       └── best.onnx        ← YOLO front-side blister detector
+│   ├── yolo_back/
+│   │   └── weights/
+│   │       └── best.onnx        ← YOLO back-side blister detector
+│   ├── patchcore_front/
+│   │   └── run_20260507_122351/anomalib_logs/Patchcore/blister/v0/weights/lightning/
+│   │       └── model.ckpt       ← PatchCore anomaly model (front)
+│   └── patchcore_back/
+│       └── run_20260507_122023/anomalib_logs/Patchcore/blister/v0/weights/lightning/
+│           └── model.ckpt       ← PatchCore anomaly model (back)
+├── streamlit_dashboard.py
+└── ...
+```
 
-## 📦 How to install
+## ▶️ Running the dashboard
 
-1. Open the Google Drive folder link above and download each model file.
-2. Place each file at the path shown in the table below (relative to the repo root),
-   creating subdirectories as needed.
-3. Confirm the files landed at the paths listed below.
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_dashboard.py
+```
 
-## 🗂️ What's in the bundle
+The dashboard automatically loads the YOLO and PatchCore models from the
+`test_results/` paths above. No extra config needed.
 
-| Model | Path (relative to repo root) | Purpose |
-|-------|------------------------------|---------|
-| YOLOv8n base weights | `yolov8n.pt` | Pretrained YOLOv8 nano base used as the starting point for training. |
-| YOLO26n base weights | `yolo26n.pt` | Alternate YOLO base weights. |
-| YOLO front (trained) | `test_results/yolo_front/weights/best.onnx` | Trained front‑side blister detector (exported ONNX). |
-| YOLO back (trained) | `test_results/yolo_back/weights/best.onnx` | Trained back‑side blister detector (exported ONNX). |
-| PatchCore front | `test_results/patchcore_front/run_20260507_122351/anomalib_logs/Patchcore/blister/v0/weights/lightning/model.ckpt` | Anomalib PatchCore anomaly model (front side). |
-| PatchCore back | `test_results/patchcore_back/run_20260507_122023/anomalib_logs/Patchcore/blister/v0/weights/lightning/model.ckpt` | Anomalib PatchCore anomaly model (back side). |
-| Federated global model | `fl_results_10round_cpu/global_round_10_fedavg.pt` | Final FedAvg global YOLO model after 10 federated rounds. |
+## 🔁 Retraining from scratch
 
-> **Note:** The 150+ intermediate per‑round / per‑site training checkpoints are *not*
-> included — they are throwaway artifacts produced during federated training and are not
-> needed to run inference. Only the final/usable models are bundled.
+If you want to regenerate the models instead of using the shared weights:
 
-## ▶️ Using the models
+```bash
+python train_yolov8.py          # trains yolo_front
+python train_backside_yolov8.py # trains yolo_back
+python train_patchcore.py       # trains both PatchCore models
+```
 
-- **Detection + anomaly dashboard:** run `streamlit run streamlit_dashboard.py` — it loads
-  the trained YOLO and PatchCore weights from the paths above.
-- **Retraining from scratch:** see `train_yolov8.py`, `train_backside_yolov8.py`,
-  `train_patchcore.py`, and `federated_learning_sim.py`. These regenerate the weights and
-  will recreate the same folder structure under `test_results/` and `fl_results_*/`.
-
-If you move the project out of OneDrive (recommended for git/training performance), unzip
-the models again at the new repo root.
+This will recreate the `test_results/` folder with the same structure.
