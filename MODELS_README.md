@@ -7,17 +7,13 @@ the exact folder structure the code expects, so every file lands in the right pl
 
 ## 📥 Download
 
-> **Models zip:** _<PASTE YOUR GOOGLE DRIVE / ONEDRIVE SHARE LINK HERE>_
+> **Models folder (Google Drive):** https://drive.google.com/drive/folders/1lZfFoA9We9UmszGCBW_vtFFexxZ8FL2w?usp=sharing
 
 ## 📦 How to install
 
-1. Download `idp_models_bundle.zip`.
-2. Unzip it at the **root of this project** (the folder containing this README), keeping
-   the folder structure. On Windows you can right‑click → *Extract All…* into the repo
-   folder, or from a terminal at the repo root:
-   ```bash
-   unzip idp_models_bundle.zip -d .
-   ```
+1. Open the Google Drive folder link above and download each model file.
+2. Place each file at the path shown in the table below (relative to the repo root),
+   creating subdirectories as needed.
 3. Confirm the files landed at the paths listed below.
 
 ## 🗂️ What's in the bundle
