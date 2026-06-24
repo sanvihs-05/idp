@@ -35,3 +35,6 @@ streamlit_dashboard*.log
 streamlit_uploads/
 inspection_events.json
 .pycache_tmp/
+
+# Model bundle zip (distributed via Drive link in MODELS_README.md)
+idp_models_bundle.zip
